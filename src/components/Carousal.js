@@ -8,7 +8,6 @@ import {
 } from 'reactstrap';
 import carousal_1 from '../images/carousImages/carousal_1.jpg';
 import carousal_2 from '../images/carousImages/carousal_2.jpg';
-import carousal_3 from '../images/carousImages/carousal_3.jpg';
 
 
 const items = [

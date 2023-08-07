@@ -1,0 +1,467 @@
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.body {
+  font-family: ShopifySans, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+
+.login-screen {
+  min-height: 100vh;
+  height: 100%;
+  /* background-image: linear-gradient(to right, rgb(82, 255, 191), rgb(0, 191, 255)); */
+  background-image: linear-gradient(to right, rgb(185, 255, 229),rgb(142, 227, 255));
+}
+
+.top-navbar {
+  /* background-color: #d6d6d6; */
+  opacity: 3;
+  font-size: 16px;
+}
+
+.dubb {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+#first-block {
+  margin-top: 250px;
+}
+
+.shopnow {
+  border: none;
+  padding-inline: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 30px;
+}
+
+.login-button {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid rgb(37,37,37);
+}
+
+.login-button:hover {
+  background-color: #565656;
+  color: #ffffff;
+  transition: 0.3s ease;
+}
+
+.register-button {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid rgb(37,37,37);
+  padding-inline: 100px;
+}
+
+.register-button:hover {
+  background-color: #565656;
+  color: #ffffff;
+  transition: 0.3s ease;
+}
+
+.google-button {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid rgb(37,37,37);
+  background-image: linear-gradient(to right, rgb(255, 104, 235), rgb(99, 245, 250));
+  color: #3b3b3b;
+}
+
+.google-button:hover {
+  background-image: linear-gradient(to right, rgb(104, 222, 255), rgb(99, 104, 250));
+  color: #f8f8f8;
+  transition: 0.3s ease;
+}
+
+.links {
+  color: rgb(37, 37, 37);
+  text-decoration: none;
+  padding: 20px;
+}
+
+.nav-icons {
+  font-size: 26px;
+  margin-top: 5px;
+  margin-left: 50px;
+}
+
+.ad-wrapper {
+  background-color: #ffe1b0;
+}
+
+.profile-toggle-card {
+  width: 150px;
+  height: auto;
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 5rem;
+  z-index: 300;
+}
+
+.toggle-items {
+  color: #202020;
+  text-decoration: none;
+}
+
+.toggle-items:hover {
+  text-decoration: underline;
+  transition: 0.5s ease-in-out;
+  color: #202020;
+}
+
+.stepIcon {
+  height: 40px;
+  width: 40px;
+  border: 1px solid #202020;
+  text-align: center;
+  border-radius: 50%;
+  padding-top: 8px;
+}
+
+.stepIcon-completed {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(157, 162, 255);
+  border: 1px solid #b8b8b8;
+  text-align: center;
+  border-radius: 50%;
+  /* padding-top: 5px; */
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.stepperDividerLine {
+  border-top: 4px solid #202020;
+  flex-grow: 1;
+  margin-top: 20px;
+}
+
+.stepperDividerLine-completed {
+  border-top: 4px solid rgb(13, 25, 255);
+  flex-grow: 1;
+  margin-top: 20px;
+}
+
+.icons {
+  margin-right: 30px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+#ads_1{
+  margin-top: 30px;
+}
+
+#ads_2{
+  margin-top: 100px;
+}
+
+#maps {
+  margin-top: 100px;
+ 
+}
+
+#contact-details {
+  margin-top: 70px;
+}
+
+#contact-us-letter {
+  font-size: 42px;
+  margin-top: 50px;
+}
+
+#first-headline {
+  font-size: 62px;
+  color: #5b035b;
+  font-family: 'Lobster', cursive;
+  font-weight: 700;
+}
+
+#our-projects {
+  text-align: center;
+  color: #5b035b;
+  font-family: 'Lobster', cursive;
+  font-size: 38px;
+  font-weight: bolder;
+  margin-bottom: 60px;
+}
+
+.reveal {
+  position: relative;
+  opacity: 0;
+}
+
+.reveal.active {
+  opacity: 1;
+}
+.active.fade-bottom {
+  animation: fade-bottom 1s ease-in;
+}
+
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+#dubb-card {
+  height: 580px;
+  width: '100%';
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+#service-title {
+  text-align: center;
+  font-size: 26px;
+  color: #2e2e2e;
+  font-weight: 600;
+}
+
+.product-card {
+  transition: all 0.3s;
+  height: 300px;
+}
+
+.card-price-body {
+  height: 90px;
+}
+
+.by-brand {
+  text-decoration: underline;
+}
+
+.product-card:hover {
+  box-shadow: 10px 10px 10px 0 grey;
+  transition: all 0.3s ;
+  transform: scale(1.15);
+}
+
+.icon-span {
+  margin-left: -30px;
+  vertical-align: top;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  font-size: 9px;
+  padding: 3px;
+  font-weight: 900;
+}
+
+.imagerow {
+  display: flex;
+}
+
+.imagecolumn {
+  flex: 60%;
+  padding: 5px;
+}
+
+.assurance-icons {
+  font-size: 30px;
+  color: rgb(60, 125, 131);
+}
+
+.color-pick {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 30px;
+}
+
+.color-pick li {
+  height: 32px;
+  width: 32px;
+  background-color: blueviolet;
+  border-radius: 50%;
+  border: 1 solid black;
+}
+
+.color-pick li:hover {
+  border: 5 solid rgb(255, 6, 226);
+}
+
+.counter-button {
+  height: 50px;
+  width: 50px;
+  border-color: #202020;
+  background-color: white;
+  border-width: thin;
+  border-radius: 5px;
+  color: rgb(23, 23, 23);
+}
+
+#red {
+  background-color: red;
+}
+
+#white {
+  background-color: white;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#green {
+  background-color: green;
+}
+
+#black {
+  background-color: black;
+}
+
+.productPage-cartButton {
+  width: 100%; 
+  height: 50px; 
+  background-color: white; 
+  border-radius: 10px;
+}
+
+.productPage-cartButton:hover {
+  background-color: rgb(71, 71, 71);
+  color: white;
+  transition: 0.4s ease;
+}
+
+.page-bg {
+  background-image: linear-gradient(45deg , rgb(253, 148, 216), rgb(158, 239, 255));
+  min-height: 100vh;
+}
+
+.shopnow {
+  width: 50%; 
+  height: 50px; 
+  background-color: white; 
+  border-radius: 5px;
+  margin-top: 60px;
+}
+
+.shopnow:hover {
+  background-color: rgb(71, 71, 71);
+  color: white;
+  transition: 0.4s ease;
+}
+
+
+
+.deliver-button {
+  width: 100%; 
+  height: 50px; 
+  border-radius: 10px; 
+  margin-top: 20px; 
+  margin-bottom: 20px;
+  background-color: rgb(224, 224, 224);
+}
+
+.deliver-button:hover {
+  background-color: rgb(71, 71, 71);
+  color: white;
+  transition: 0.4s ease;
+}
+
+#footer {
+  background-color: rgb(19, 19, 19);
+  color: white;
+}
+
+.cartTextVertical {
+  vertical-align: middle;
+}
+
+.cart-counter-button {
+  height: 50px;
+  width: 50px;
+  border-color: #ffffff;
+  background-color: white;
+  border-width: thin;
+  border-radius: 5px;
+  color: rgb(23, 23, 23);
+  font-size: 18px;
+}
+
+.add-product-icons {
+  height: 30px;
+  width: 30px;
+  border: 1px solid rgb(185, 185, 185);
+  text-align: center;
+  color: #202020;
+  border-radius: 10px;
+}
+
+.add-product-icons:hover {
+  background-color: #8d8d8d;
+  color: #ffffff;
+}
+
+.admin-nav {
+  background-color: #e7e7e7;
+
+}
+
+#dashboard-page {
+  min-height: 100vh;
+}
+
+.page-visit-card {
+  height: 500px;
+}
+
+.card-card {
+  background-image: linear-gradient(to right, rgb(120, 116, 251), rgb(69, 63, 254));
+}
+
+.card-card:hover {
+  box-shadow: 10px 10px 10px 0 grey;
+  transition: 0.3s ease-in-out;
+}
+
+.card-1-card {
+  background-image: linear-gradient(to right, rgb(251, 88, 88), rgb(251, 18, 18));
+}
+
+.card-1-card:hover {
+  box-shadow: 10px 10px 10px 0 grey;
+  transition: 0.3s ease-in-out;
+}
+
+.socialMedia-icons {
+  display: inline-block;
+}
+
+.review-card {
+  height: 100px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.show-card {
+  height: 300px;
+  width: 600px;
+  background-color: rgb(70, 70, 255);
+  color: white;
+  border-radius: 10px;
+}

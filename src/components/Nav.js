@@ -31,7 +31,7 @@ const Nav = () => {
                 <nav className="navbar navbar-default" role="navigation">
 
                     <a className="navbar-brand" type='button' style={{marginLeft: '20px'}} onClick={homePage}>
-                        <img src={logo} alt='i homes prarambh' width={100}/>
+                        <img src={logo} alt='i homes prarambh' width={60}/>
                     </a>
 
                     <ul className="nav">

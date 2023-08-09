@@ -26,37 +26,58 @@ const Nav = () => {
     }
 
     return (
-        <div className="container-fluid" style={{paddingLeft:'0px', paddingRight:'0px', backgroundColor:'black'}}>
-            <div className='top-navbar'>
-                <nav className="navbar navbar-default" role="navigation">
+        // <div className="container-fluid" style={{paddingLeft:'0px', paddingRight:'0px', backgroundColor:'black'}}>
+        //     <div className='top-navbar'>
+        //         <nav className="navbar navbar-default" role="navigation">
 
-                    <a className="navbar-brand" type='button' style={{marginLeft: '20px'}} onClick={homePage}>
-                        <img src={logo} alt='i homes prarambh' width={60}/>
-                    </a>
+        //             <a className="navbar-brand" type='button' style={{marginLeft: '20px'}} onClick={homePage}>
+        //                 <img src={logo} alt='i homes prarambh' width={60}/>
+        //             </a>
 
-                    <ul className="nav">
+        //             <ul className="nav">
+        // <li className="nav-item">
+        //     <a type='button' className="links" style={{color:'white'}} onClick={homePage}>Home</a>
+        // </li>
+        // <li className="nav-item">
+        //     <a type='button' onClick={aboutUs} style={{color:'white'}} className="links">About us</a>
+        // </li>
+        // <li className="nav-item">
+        //     <a type='button' onClick={contactUs} style={{color:'white'}} className="links">Contact us</a>
+        // </li>
+        //             </ul>
+
+
+        //             <div className='icons'>
+
+        //             </div>
+        //         </nav>
+        //     </div>
+
+        // </div>
+
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" style={{ padding: '0px' }}>
+            <div class="container-fluid">
+                <a className="navbar-brand" type='button' style={{ marginLeft: '20px' }} onClick={homePage}>
+                    <img src={logo} alt='i homes prarambh' width={60} />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
                         <li className="nav-item">
-                            <a type='button' className="links" style={{color:'white'}} onClick={homePage}>Home</a>
+                            <a type='button' className="links" style={{ color: 'white' }} onClick={homePage}>Home</a>
                         </li>
                         <li className="nav-item">
-                            <a type='button' className="links" style={{color:'white'}} onClick={homePage}>Location</a>
+                            <a type='button' onClick={aboutUs} style={{ color: 'white' }} className="links">About us</a>
                         </li>
                         <li className="nav-item">
-                            <a type='button' onClick={aboutUs} style={{color:'white'}} className="links">About us</a>
-                        </li>
-                        <li className="nav-item">
-                            <a type='button' onClick={contactUs} style={{color:'white'}} className="links">Contact us</a>
+                            <a type='button' onClick={contactUs} style={{ color: 'white' }} className="links">Contact us</a>
                         </li>
                     </ul>
-
-
-                    <div className='icons'>
-
-                    </div>
-                </nav>
+                </div>
             </div>
-
-        </div>
+        </nav>
 
     )
 }

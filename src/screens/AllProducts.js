@@ -52,9 +52,7 @@ const AllProducts = () => {
         <>
             <div className="navy" style={{ zIndex: 1090 }}><Nav /></div>
 
-
             <div className="container-fluid" id='carousal-part' style={{ paddingLeft: '0px', paddingRight: '0px' }}>
-
                 <Carousal />
             </div>
 
@@ -134,12 +132,11 @@ const AllProducts = () => {
 
                     <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="ads_1" style={{ textAlign: 'center', paddingLeft: '50px', paddingRight: '50px' }}>
                         <p id='first-headline'> A New Standard of Elegance and Comfort</p>
-                        <p >Auctus Technologies India is a skilled and dynamic company engaged in Human Resource Consulting services,
-                            primarily concentrating on Information Technology, ITES, BPO services.
-                            Auctus Technologies India is serving some of the world’s finest organizations. Committed to achieve maximum customer satisfaction,
-                            we offer personalized executive recruitment services with the objective of meeting the individual specific requirements of our
-                            clients in a most efficient manner. Our team adheres to the norms, work culture and the code of ethics of our clients.</p>
-                        <button className="shopnow" onClick={aboutUs} type="submit">Explore More</button>
+                        <p id='block-content'>ADiscover a world of luxury and comfort at our exquisite real estate apartments.
+                            Designed to exceed your expectations, our meticulously crafted residences offer an unparalleled living experience
+                            that combines contemporary aesthetics with thoughtful functionality. Welcome to a place where every detail has
+                            been carefully considered to create a home that truly elevates your lifestyle.</p>
+                        <button className="explore" onClick={aboutUs} type="submit">Explore More</button>
                     </div>
 
                 </div>
@@ -151,10 +148,10 @@ const AllProducts = () => {
 
                     <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="ads_1" style={{ textAlign: 'center', paddingLeft: '50px', paddingRight: '50px' }}>
                         <p id='first-headline'>Affordable Housing Initiatives Pave the Way for Inclusive Communities</p>
-                        <p >To Power the Innovation Excellence and be a<br></br>
-                            spring of robust Technology solutions provider &<br></br>
+                        <p id='block-content'>To Power the Innovation Excellence and be a
+                            spring of robust Technology solutions provider &
                             Trusted partnet of growth for the universe of business</p>
-                        <button className="shopnow" onClick={contactUs} type="submit">Contact US</button>
+                        <button className="explore" onClick={contactUs} type="submit">Contact US</button>
                     </div>
 
                     <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="ads_1" style={{ textAlign: 'center' }}>
@@ -165,8 +162,8 @@ const AllProducts = () => {
                 </div>
             </div>
 
-            <div className='container reveal fade-bottom' id='first-block'>
-                <p id='our-projects'>i-homes Prarambh Project details</p>
+            <div className='container reveal fade-bottom' id='Third-block'>
+                <p id='our-projects'>i-Homes Prarambh Project Details</p>
                 <Row>
                     <Col xs={12} md={6}>
                         <div>
@@ -174,19 +171,37 @@ const AllProducts = () => {
                                 style={{ width: '100%', height: '500px' }} />
                         </div>
                         <div>
-                            <p>Our Aminities</p>
-                            <ul>
-                                <li>HMDA Approved Appartment</li>
-                                <li>Luxuary flat as per HMDA Approved Plan</li>
-                                <li>Vastu Compliance</li>
-                                <li>Built-up area from 1257sft to 1803sft</li>
+                            <p id='aminities'>Our Aminities</p>
+                            <ul id='Aminity-list'>
+                                <li>HMDA Approved Appartment.</li>
+                                <li>Luxuary flat as per HMDA Approved Plan.</li>
+                                <li>Vastu Compliance.</li>
+                                <li>Built-up area from 1257sft to 1803sft.</li>
+                                <li>Comprehensive Security System with cameras at appropriate locations.</li>
+                                <li>Guest Parking Facility.</li>
                             </ul>
+                        </div>
+                        <div>
+                            <button className="knowMore" onClick={aboutUs} type="submit">Explore More</button>
                         </div>
                     </Col>
                     <Col xs={12} md={6}>
-                    <div>
+                        <div>
                             <img src={specifications} alt="i homes prarambh adibatla specifications" className="d-block"
                                 style={{ width: '100%', height: '500px' }} />
+                        </div>
+                        <div>
+                            <p id='aminities'>Project Specifications</p>
+                            <ul id='Aminity-list'>
+                                <li><span id='aminity-head'>RCC Super Structure:</span> RCC Super Structure with 6" Thickness</li>
+                                <li> <span id='aminity-head'>Bathrooms:</span>Built with 7.0 height Vetrified tiles with standard make.</li>
+                                <li> <span id='aminity-head'>Painting :</span> 2cotes of Assian/Birla putty and sanding to a smooth finish, 1 coat of primer & 2 cotes ofpremium emulsion</li>
+                                <li> <span id='aminity-head'>Balcony :</span> Rustic Ceramic Tiles of standard make in balconies.</li>
+                                <li> <span id='aminity-head'>Parking:</span> equipped with Natural Stone / parking Tiles of standard make.</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <button className="knowMore" onClick={aboutUs} type="submit">Explore More</button>
                         </div>
                     </Col>
                 </Row>

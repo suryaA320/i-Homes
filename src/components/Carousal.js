@@ -13,8 +13,8 @@ import carousal_2 from '../images/carousImages/carousal_2.jpg';
 const items = [
   {
     src: carousal_1,
-    altText: 'i Homes',
-    caption: 'i Homes',
+    altText: 'i-Homes Prarambh',
+    // caption: 'i-Homes Prarambh',
     key: 1,
   },
   {
@@ -23,7 +23,7 @@ const items = [
     caption: 'Auctus Technologies',
     key: 2,
   },
-  
+
 ];
 
 function Carousal(args) {
@@ -54,10 +54,11 @@ function Carousal(args) {
         onExited={() => setAnimating(false)}
         key={item.src}
       >
-        <img src={item.src} alt={item.altText} height='810px' width='100%'/>
+        <img src={item.src} alt={item.altText} className='img-fluid' id='car-img' />
         <CarouselCaption
-          // captionText={item.caption}
-          // captionHeader={item.caption}
+          captionText={item.caption}
+          // captionHeader={item.altText}
+          className='abc'
         />
       </CarouselItem>
     );

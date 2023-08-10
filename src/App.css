@@ -211,8 +211,13 @@
   }
 
   #block-content {
-    font-size: 18px;
+    font-size: 14px;
   }
+
+  .explore {
+    margin-top: 30px;
+  }
+
 }
 
 #block-content{
@@ -222,7 +227,7 @@
 }
 
 #Third-block {
-  margin-top: 100px;
+  margin-top: 150px;
   text-align: left;
 }
 
@@ -237,12 +242,24 @@
   text-decoration: underline;
 }
 
+@media (max-width: 767px) {
+  #our-projects {
+    font-size: 32px;
+  }
+}
+
 #aminities{
   color: #5b035b;
   font-family: 'Lobster', cursive;
   font-family: 'Vesper Libre', serif;
   font-size: 38px;
   margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+  #aminities {
+    font-size: 26px;
+  }
 }
 
 #aminity-head {
@@ -253,6 +270,12 @@
 #Aminity-list{
   font-size: 20px;
   color: #3e3e3e;
+}
+
+@media (max-width: 767px) {
+  #Aminity-list {
+    font-size: 14px;
+  }
 }
 
 #car-img {
@@ -386,39 +409,6 @@
   border: 5 solid rgb(255, 6, 226);
 }
 
-.counter-button {
-  height: 50px;
-  width: 50px;
-  border-color: #202020;
-  background-color: white;
-  border-width: thin;
-  border-radius: 5px;
-  color: rgb(23, 23, 23);
-}
-
-#red {
-  background-color: red;
-}
-
-#white {
-  background-color: white;
-}
-
-#yellow {
-  background-color: yellow;
-}
-
-#blue {
-  background-color: blue;
-}
-
-#green {
-  background-color: green;
-}
-
-#black {
-  background-color: black;
-}
 
 .productPage-cartButton {
   width: 100%;
@@ -439,13 +429,19 @@
 }
 
 .explore {
-  width: 40%;
+  width: 50%;
   height: 50px;
   background-color: white;
   color: #4e4e4e;
   border-radius: 5px;
   margin-top: 60px;
   border: 0px;
+}
+
+@media (max-width: 767px) {
+  .explore {
+    margin-top: 30px;
+  }
 }
 
 .explore:hover {

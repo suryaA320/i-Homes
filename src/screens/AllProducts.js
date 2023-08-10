@@ -168,7 +168,7 @@ const AllProducts = () => {
                     <Col xs={12} md={6}>
                         <div>
                             <img src={FloorPlan} alt="i homes prarambh adibatla floor plan details" className="d-block"
-                                style={{ width: '100%', height: '500px' }} />
+                                id='building-images' />
                         </div>
                         <div>
                             <p id='aminities'>Our Aminities</p>
@@ -188,7 +188,7 @@ const AllProducts = () => {
                     <Col xs={12} md={6}>
                         <div>
                             <img src={specifications} alt="i homes prarambh adibatla specifications" className="d-block"
-                                style={{ width: '100%', height: '500px' }} />
+                                id='building-images' />
                         </div>
                         <div>
                             <p id='aminities'>Project Specifications</p>

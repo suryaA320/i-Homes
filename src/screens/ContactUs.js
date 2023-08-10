@@ -19,7 +19,7 @@ const contactUs = () => {
 
                     <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="ads_2" style={{ textAlign: 'center' }}>
                         <img src={contact} alt="New York" class="img-fluid"
-                            style={{ width: '100%', height: '500px', borderRadius: '20px' }} />
+                            style={{ borderRadius: '20px' }} id='building-images'/>
                     </div>
 
                     <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="ads_2" style={{ textAlign: 'center', paddingLeft: '50px', color: 'white', paddingRight: '50px', backgroundColor: '#222222', borderRadius: '20px' }}>

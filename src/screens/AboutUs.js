@@ -35,7 +35,7 @@ const AboutUs = () => {
 
                     <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="ads_2" style={{ textAlign: 'center' }}>
                         <img src={contact} alt="i homes prarambh" className="img-fluid"
-                            style={{ width: 'auto', height: '500px', borderRadius: '20px' }} />
+                            style={{ borderRadius: '20px' }} id='building-images'/>
                     </div>
 
                     <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="ads_2" style={{ textAlign: 'center', paddingLeft: '50px', paddingRight: '50px', backgroundColor: '#222222', borderRadius: '20px' }}>
@@ -55,7 +55,7 @@ const AboutUs = () => {
                 </div>
             </div>
 
-            <div className='container'>
+            {/* <div className='container'>
                 <div id='left'></div>
                 <div id='right'>
                     <div id='overlap-content'>
@@ -64,7 +64,7 @@ const AboutUs = () => {
                         <a href='www.google.com'></a>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <div>
                 <Footer />

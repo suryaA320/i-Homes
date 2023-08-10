@@ -58,16 +58,16 @@ const AllProducts = () => {
 
             <div className='container-fluid' id='initial'>
                 <div className='container'>
-                <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="inner-container">
-                    <p id='headline'>Our Vision & Goal</p>
-                    <p className='dubb'>
-                        The vision for our construction project is to create sustainable, innovative,
-                        and aesthetically pleasing properties that enhance the quality of life for residents and contribute
-                        positively to the surrounding community. Our vision is to be recognized as a leader in delivering
-                        environmentally conscious, modern, and thoughtfully designed spaces that stand the test of time.
-                    </p>
-                    <button className="discover-more-button" onClick={contactUs} type="submit">Discover More</button>
-                </div>
+                    <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12'>
+                        <p id='headline'>Our Vision & Goal</p>
+                        <p className='dubb'>
+                            The vision for our construction project is to create sustainable, innovative,
+                            and aesthetically pleasing properties that enhance the quality of life for residents and contribute
+                            positively to the surrounding community. Our vision is to be recognized as a leader in delivering
+                            environmentally conscious, modern, and thoughtfully designed spaces that stand the test of time.
+                        </p>
+                        <button className="discover-more-button" onClick={contactUs} type="submit">Discover More</button>
+                    </div>
                 </div>
             </div>
 

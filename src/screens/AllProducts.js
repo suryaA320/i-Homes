@@ -165,7 +165,7 @@ const AllProducts = () => {
             <div className='container reveal fade-bottom' id='Third-block'>
                 <p id='our-projects'>i-Homes Prarambh Project Details</p>
                 <Row>
-                    <Col xs={12} md={6}>
+                    <Col xs={12} md={6} style={{marginTop:'20px'}}>
                         <div>
                             <img src={FloorPlan} alt="i homes prarambh adibatla floor plan details" className="d-block"
                                 id='building-images' />
@@ -185,7 +185,7 @@ const AllProducts = () => {
                             <button className="knowMore" onClick={aboutUs} type="submit">Explore More</button>
                         </div>
                     </Col>
-                    <Col xs={12} md={6}>
+                    <Col xs={12} md={6} style={{marginTop:'20px'}}>
                         <div>
                             <img src={specifications} alt="i homes prarambh adibatla specifications" className="d-block"
                                 id='building-images' />

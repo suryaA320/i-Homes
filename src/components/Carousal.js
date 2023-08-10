@@ -19,8 +19,8 @@ const items = [
   },
   {
     src: carousal_2,
-    altText: 'Auctus Technologies',
-    caption: 'Auctus Technologies',
+    altText: 'i-Homes Prarambh',
+    // caption: 'Auctus Technologies',
     key: 2,
   },
 

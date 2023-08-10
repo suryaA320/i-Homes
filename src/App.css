@@ -168,7 +168,7 @@
 }
 
 #ads_2 {
-  margin-top: 100px;
+  margin-top: 130px;
 }
 
 #maps {
@@ -181,8 +181,19 @@
 }
 
 #contact-us-letter {
-  font-size: 42px;
+  font-size: 38px;
   margin-top: 50px;
+  color: white;
+  font-family: 'Lobster', cursive;
+  font-family: 'Vesper Libre', serif;
+}
+
+#About-us-content {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  text-align: left;
+  font-size: 18px;
 }
 
 #first-headline {
@@ -242,6 +253,11 @@
   height: auto;
 }
 
+#building-images {
+  width: 100%;
+  height: auto;
+}
+
 
 .reveal {
   position: relative;
@@ -256,6 +272,10 @@
   animation: fade-bottom 1s ease-in;
 }
 
+.active.fade-left {
+  animation: fade-left 1s ease-in;
+}
+
 @keyframes fade-bottom {
   0% {
     transform: translateY(50px);
@@ -264,6 +284,17 @@
 
   100% {
     transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
     opacity: 1;
   }
 }

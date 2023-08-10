@@ -25,6 +25,11 @@ const Nav = () => {
         navigate(path);
     }
 
+    const ourProjects = () => {
+        let path = '/our-projects';
+        navigate(path);
+    }
+
     return (
         // <div className="container-fluid" style={{paddingLeft:'0px', paddingRight:'0px', backgroundColor:'black'}}>
         //     <div className='top-navbar'>
@@ -67,6 +72,9 @@ const Nav = () => {
                     <ul class="navbar-nav">
                         <li className="nav-item">
                             <a type='button' className="links" style={{ color: 'white' }} onClick={homePage}>Home</a>
+                        </li>
+                        <li className="nav-item">
+                            <a type='button' className="links" style={{ color: 'white' }} onClick={ourProjects}>Our Projects</a>
                         </li>
                         <li className="nav-item">
                             <a type='button' onClick={aboutUs} style={{ color: 'white' }} className="links">About us</a>

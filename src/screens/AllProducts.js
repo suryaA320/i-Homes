@@ -127,7 +127,7 @@ const AllProducts = () => {
 
                     <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="ads_1" style={{ textAlign: 'center' }}>
                         <img src={Building} alt="i homes prarambh" className="d-block"
-                            style={{ width: '100%', height: '500px' }} />
+                             id='building-images'/>
                     </div>
 
                     <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="ads_1" style={{ textAlign: 'center', paddingLeft: '50px', paddingRight: '50px' }}>
@@ -151,12 +151,12 @@ const AllProducts = () => {
                         <p id='block-content'>To Power the Innovation Excellence and be a
                             spring of robust Technology solutions provider &
                             Trusted partnet of growth for the universe of business</p>
-                        <button className="explore" onClick={contactUs} type="submit">Contact US</button>
+                        <button className="explore" onClick={contactUs} type="submit">Contact Us</button>
                     </div>
 
                     <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="ads_1" style={{ textAlign: 'center' }}>
                         <img src={HD_View} alt="New York" className="d-block"
-                            style={{ width: '100%', height: '500px' }} />
+                            id='building-images' />
                     </div>
 
                 </div>

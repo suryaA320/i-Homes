@@ -132,7 +132,7 @@ const AllProducts = () => {
 
                     <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="ads_1" style={{ textAlign: 'center', paddingLeft: '50px', paddingRight: '50px' }}>
                         <p id='first-headline'> A New Standard of Elegance and Comfort</p>
-                        <p id='block-content'>ADiscover a world of luxury and comfort at our exquisite real estate apartments.
+                        <p id='block-content'>Discover a world of luxury and comfort at our exquisite real estate apartments.
                             Designed to exceed your expectations, our meticulously crafted residences offer an unparalleled living experience
                             that combines contemporary aesthetics with thoughtful functionality. Welcome to a place where every detail has
                             been carefully considered to create a home that truly elevates your lifestyle.</p>

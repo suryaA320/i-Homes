@@ -14,7 +14,7 @@ import Vision from '../images/ProductImages/vision.jpg';
 import bullsEye from '../images/carousImages/Bulls-eye.png';
 import Focus from '../images/carousImages/Focus.png';
 import Glass from '../images/carousImages/magnifying-glass.png';
-import { Col, Row } from 'reactstrap';
+import { Card, CardBody, CardText, CardTitle, Col, Row } from 'reactstrap';
 
 const AllProducts = () => {
     let navigate = useNavigate();
@@ -56,78 +56,29 @@ const AllProducts = () => {
                 <Carousal />
             </div>
 
-            {/* <div className='container' id='initial'>
-                <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="ads_1" style={{ paddingLeft: '10px', paddingRight: '50px' }}>
-                    <h1 style={{ marginBottom: '30px', color: 'white', fontSize: '62px' }}>Grow Your business With AucTech</h1>
+            <div className='container-fluid' id='initial'>
+                <div className='container'>
+                <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="inner-container">
+                    <p id='headline'>Our Vision & Goal</p>
                     <p className='dubb'>
-                        End to End 'HR' Solutions for organizations<br></br>
-                        We are "ONE STOP" solution for your business needs providing valuable services like, <br />
-                        Talent Acquisition, Payroll Management, HR Advisory, HR Outsourcing, HR Audit & Many more..
+                        The vision for our construction project is to create sustainable, innovative,
+                        and aesthetically pleasing properties that enhance the quality of life for residents and contribute
+                        positively to the surrounding community. Our vision is to be recognized as a leader in delivering
+                        environmentally conscious, modern, and thoughtfully designed spaces that stand the test of time.
                     </p>
-                    <button className="shopnow" onClick={contactUs} type="submit">Discover More</button>
+                    <button className="discover-more-button" onClick={contactUs} type="submit">Discover More</button>
                 </div>
-            </div> */}
+                </div>
+            </div>
 
-            {/* <div className='container' style={{ marginTop: '200px' }}>
 
-                <Row>
-                    
-                    <Col xs={12} md={4}>
-                        <Card id="dubb-card">
-                        <img src={bullsEye} class="img-fluid" style={{height: '270px', width: '415px', backgroundColor: 'pink', borderRadius: '20px'}} alt='auctech technologies' />
-                            <CardBody>
-                                <CardTitle id='service-title'>
-                                    Our Mission
-                                </CardTitle>
-                                <hr />
-                                <CardText id='service-text'>
-                                    We are fully trained & equipped hard working team with a goal to achieve together in reaching the milestone.
-                                    We adapt to our clients changing needs as well as changes in the market to make sure we are a business of growth, success and happiness.
-                                </CardText>
-                            </CardBody>
-                        </Card>
-                    </Col>
-                    <Col xs={12} md={4}>
-                        <Card id="dubb-card">
-                        <img src={Focus} class="img-fluid" style={{height: '270px', width: '415px', backgroundColor: 'pink', borderRadius: '20px'}} alt='auctech technologies' />
-                            <CardBody>
-                                <CardTitle id='service-title'>
-                                    Our Vision
-                                </CardTitle>
-                                <hr />
-                                <CardText id='service-text'>
-                                    We will achieve our vision by partnering with our clients to recruit, manage & retain their workforce using our outstanding
-                                    knowledge on both permanent & contract Employment. We are the management consultants, fully equipped with end-to-end facilities
-                                    for all our services we provide, we take the client to the next step in terms of their core target achievement.
-                                </CardText>
-                            </CardBody>
-                        </Card>
-                    </Col>
-                    <Col xs={12} md={4}>
-                        <Card id="dubb-card">
-                            <img src={Glass} class="img-fluid" style={{height: '270px', width: '415px', backgroundColor: 'pink', borderRadius: '20px'}} alt='auctech technologies' />
-                            <CardBody>
-                                <CardTitle id='service-title'>
-                                    Our Focus
-                                </CardTitle>
-                                <hr />
-                                <CardText id='service-text'>
-                                    Our Main Focus is to provide our clients, The eligible candidates with Industry
-                                    standards who can put in their effort for growth of the company
-                                </CardText>
-                            </CardBody>
-                        </Card>
-                    </Col>
-                </Row>
-
-            </div> */}
 
             <div className='container-fluid reveal fade-bottom' id='first-block' >
                 <div className='row' >
 
                     <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="ads_1" style={{ textAlign: 'center' }}>
                         <img src={Building} alt="i homes prarambh" className="d-block"
-                             id='building-images'/>
+                            id='building-images' />
                     </div>
 
                     <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="ads_1" style={{ textAlign: 'center', paddingLeft: '50px', paddingRight: '50px' }}>
@@ -165,7 +116,7 @@ const AllProducts = () => {
             <div className='container reveal fade-bottom' id='Third-block'>
                 <p id='our-projects'>i-Homes Prarambh Project Details</p>
                 <Row>
-                    <Col xs={12} md={6} style={{marginTop:'20px'}}>
+                    <Col xs={12} md={6} style={{ marginTop: '20px' }}>
                         <div>
                             <img src={FloorPlan} alt="i homes prarambh adibatla floor plan details" className="d-block"
                                 id='building-images' />
@@ -185,7 +136,7 @@ const AllProducts = () => {
                             <button className="knowMore" onClick={aboutUs} type="submit">Explore More</button>
                         </div>
                     </Col>
-                    <Col xs={12} md={6} style={{marginTop:'20px'}}>
+                    <Col xs={12} md={6} style={{ marginTop: '20px' }}>
                         <div>
                             <img src={specifications} alt="i homes prarambh adibatla specifications" className="d-block"
                                 id='building-images' />

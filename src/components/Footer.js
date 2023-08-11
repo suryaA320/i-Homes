@@ -27,7 +27,7 @@ const Footer = () => {
         <div className="container-fluid mt-5" id="footer" style={{ height: 'auto' }}>
             <Row style={{ marginTop: '50px', textAlign: 'center', paddingTop: '100px', paddingBottom: '100px' }}>
                 <Col className='my-auto' xs={12} md={4} >
-                    <h2>i-Homes Prarambh</h2>
+                    <h2>i-Homes</h2>
                     <p>2 & 3 BHK, Premium Luxuary Apartments</p>
                     <p>@ TCS ADIBATLA</p>
 

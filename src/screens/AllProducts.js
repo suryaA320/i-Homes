@@ -49,6 +49,10 @@ const AllProducts = () => {
                 <NewCarousal />
             </div>
 
+            <div>
+                <p id='prarambh-text'>i Homes Prarambh</p>
+            </div>
+
             <div className='container-fluid reveal fade-bottom' id='first-block' >
                 <div className='row' >
 

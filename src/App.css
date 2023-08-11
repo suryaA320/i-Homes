@@ -283,6 +283,11 @@
   }
 }
 
+#nav-bar:hover {
+  background-color: #1a1a1a;
+  transition: 0.5s ease-in-out;
+}
+
 @media (max-width: 767px) {
   #nav-bar {
     height: 0px;
@@ -290,6 +295,27 @@
 
   #collapsibleNavbar {
     background-color: #212836;
+  }
+}
+
+@media (max-width: 767px) {
+  #about-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+
+@media (max-width: 767px) {
+  #left {
+    width: 100% !important;
+    margin: 5px;
+  }
+  #right {
+    width: 100% !important;
+    margin-left: 0px !important;
+    margin: 5px;
+    height: auto !important;
   }
 }
 
@@ -355,6 +381,35 @@
   height: auto;
 }
 
+#about-container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+#about-image-css {
+  border-radius: 10px;
+}
+
+#left {
+  width: 50%;
+  height: 100%;
+}
+
+#right {
+  width: 50%;
+  height: auto;
+  background-color: #202020;
+  margin-left: -150px;
+  border-radius: 10px;
+}
+
+#overlap-content {
+  padding: 50px;
+}
 
 .reveal {
   position: relative;

@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from '../components/Footer'
 import Nav from '../components/Nav'
 import contact from '../images/ProductImages/Building.jpg';
-
+import aboutImage from '../images/ProductImages/About-img.png'
 
 const AboutUs = () => {
 
@@ -29,44 +29,54 @@ const AboutUs = () => {
                 <Nav />
             </div>
 
-            <div className='container-fluid' >
+            {/* <div className='container-fluid' >
                 <div className='row' >
                     <div></div>
 
                     <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="ads_2" style={{ textAlign: 'center' }}>
                         <img src={contact} alt="i homes prarambh" className="img-fluid"
-                            style={{ borderRadius: '20px' }} id='building-images'/>
+                            style={{ borderRadius: '20px' }} id='building-images' />
                     </div>
 
                     <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="ads_2" style={{ textAlign: 'center', paddingLeft: '50px', paddingRight: '50px', backgroundColor: '#222222', borderRadius: '20px' }}>
                         <h3 id='contact-us-letter' style={{ marginBottom: '50px' }}>About US</h3>
 
                         <div id='About-us-content'>
-                        At i homes Prarambh, we are dedicated to transforming architectural visions into
-                        exceptional living spaces. With a proven track record of excellence, our company stands as a 
-                        cornerstone in the construction industry, specializing in crafting modern and functional apartment 
-                        complexes that meet the diverse needs of today's urban residents. Our mission is to create 
-                        superior-quality apartment buildings that not only reflect innovative design and construction 
-                        techniques but also prioritize sustainability, safety, and comfort. We believe in turning our 
-                        clients' dreams into reality by delivering meticulously planned and expertly executed projects that 
-                        enhance communities and contribute to a higher quality of life.
+                            At i homes Prarambh, we are dedicated to transforming architectural visions into
+                            exceptional living spaces. With a proven track record of excellence, our company stands as a
+                            cornerstone in the construction industry, specializing in crafting modern and functional apartment
+                            complexes that meet the diverse needs of today's urban residents. Our mission is to create
+                            superior-quality apartment buildings that not only reflect innovative design and construction
+                            techniques but also prioritize sustainability, safety, and comfort. We believe in turning our
+                            clients' dreams into reality by delivering meticulously planned and expertly executed projects that
+                            enhance communities and contribute to a higher quality of life.
                         </div>
 
                     </div>
 
                 </div>
-            </div>
+            </div> */}
 
-            {/* <div className='container'>
-                <div id='left'></div>
+            <div className='container' id='about-container'>
+                <div id='left'>
+                    <img src={aboutImage} alt='i homes near tcs adibatla' className="img-fluid" id='about-image-css' />
+                </div>
                 <div id='right'>
                     <div id='overlap-content'>
-                        <h3>Hello Header</h3>
-                        <p>dummy text</p>
-                        <a href='www.google.com'></a>
+                        <h3 id='contact-us-letter' style={{ marginBottom: '50px' }}>About US</h3>
+                        <div id='About-us-content'>
+                            At i homes Prarambh, we are dedicated to transforming architectural visions into
+                            exceptional living spaces. With a proven track record of excellence, our company stands as a
+                            cornerstone in the construction industry, specializing in crafting modern and functional apartment
+                            complexes that meet the diverse needs of today's urban residents. Our mission is to create
+                            superior-quality apartment buildings that not only reflect innovative design and construction
+                            techniques but also prioritize sustainability, safety, and comfort. We believe in turning our
+                            clients' dreams into reality by delivering meticulously planned and expertly executed projects that
+                            enhance communities and contribute to a higher quality of life.
+                        </div>
                     </div>
                 </div>
-            </div> */}
+            </div>
 
             <div>
                 <Footer />

@@ -60,7 +60,7 @@ const Nav = () => {
 
         // </div>
 
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" style={{ padding: '0px' }}>
+        <nav class="navbar navbar-expand-sm  fixed-top" style={{ padding: '0px' }} id='nav-bar'>
             <div class="container-fluid">
                 <a className="navbar-brand" type='button' style={{ marginLeft: '20px' }} onClick={homePage}>
                     <img src={logo} alt='i homes prarambh' width={60} />
@@ -69,7 +69,7 @@ const Nav = () => {
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav" >
                         <li className="nav-item">
                             <a type='button' className="links" style={{ color: 'white' }} onClick={homePage}>Home</a>
                         </li>

@@ -1,20 +1,13 @@
 import React from 'react'
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
-// import carousal_2 from '../images/carousImages/carousal_2.jpg';
 import Building from '../images/ProductImages/Building.jpg';
 import HD_View from '../images/ProductImages/HD-View-2.jpg';
 import FloorPlan from '../images/ProductImages/Floor-Plan.jpg';
 import specifications from '../images/ProductImages/Specifications.jpg'
 import { useNavigate } from "react-router-dom";
-import Carousal from '../components/Carousal';
-import * as Icon from 'react-bootstrap-icons';
-import Mission from '../images/ProductImages/mission.jpg';
-import Vision from '../images/ProductImages/vision.jpg';
-import bullsEye from '../images/carousImages/Bulls-eye.png';
-import Focus from '../images/carousImages/Focus.png';
-import Glass from '../images/carousImages/magnifying-glass.png';
-import { Card, CardBody, CardText, CardTitle, Col, Row } from 'reactstrap';
+import { Col, Row } from 'reactstrap';
+import NewCarousal from '../components/NewCarousal';
 
 const AllProducts = () => {
     let navigate = useNavigate();
@@ -53,25 +46,8 @@ const AllProducts = () => {
             <div className="navy" style={{ zIndex: 1090 }}><Nav /></div>
 
             <div className="container-fluid" id='carousal-part' style={{ paddingLeft: '0px', paddingRight: '0px' }}>
-                <Carousal />
+                <NewCarousal />
             </div>
-
-            <div className='container-fluid' id='initial'>
-                <div className='container'>
-                    <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12'>
-                        <p id='headline'>Our Vision & Goal</p>
-                        <p className='dubb'>
-                            The vision for our construction project is to create sustainable, innovative,
-                            and aesthetically pleasing properties that enhance the quality of life for residents and contribute
-                            positively to the surrounding community. Our vision is to be recognized as a leader in delivering
-                            environmentally conscious, modern, and thoughtfully designed spaces that stand the test of time.
-                        </p>
-                        <button className="discover-more-button" onClick={contactUs} type="submit">Discover More</button>
-                    </div>
-                </div>
-            </div>
-
-
 
             <div className='container-fluid reveal fade-bottom' id='first-block' >
                 <div className='row' >
@@ -110,6 +86,21 @@ const AllProducts = () => {
                             id='building-images' />
                     </div>
 
+                </div>
+            </div>
+
+            <div className='container-fluid reveal fade-bottom' id='initial'>
+                <div className='container'>
+                    <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12 '>
+                        <p id='headline'>Our Vision & Goal</p>
+                        <p className='mission-content'>
+                            The vision for our construction project is to create sustainable, innovative,
+                            and aesthetically pleasing properties that enhance the quality of life for residents and contribute
+                            positively to the surrounding community. Our vision is to be recognized as a leader in delivering
+                            environmentally conscious, modern, and thoughtfully designed spaces that stand the test of time.
+                        </p>
+                        <button className="discover-more-button" onClick={contactUs} type="submit">Discover More</button>
+                    </div>
                 </div>
             </div>
 

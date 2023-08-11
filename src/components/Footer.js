@@ -39,16 +39,16 @@ const Footer = () => {
                     <div className='socialMedia-icons'>
                         <ul className="nav" >
                             <li className="nav-item">
-                                <a type='button' href='https://www.facebook.com/profile.php?id=100091064176070' className="links"><Icon.Facebook style={{ color: 'white' }} /></a>
+                                <a type='button' href='' className="links"><Icon.Facebook style={{ color: 'white' }} /></a>
                             </li>
                             <li className="nav-item">
-                                <a type='button' className="links"><Icon.Instagram style={{ color: 'white' }} /></a>
+                                <a type='button' href='https://www.instagram.com/ihomes_prarambh/?igshid=OGQ5ZDc2ODk2ZA%3D%3D' className="links"><Icon.Instagram style={{ color: 'white' }} /></a>
                             </li>
                             <li className="nav-item">
                                 <a type='button' className="links"><Icon.Youtube style={{ color: 'white' }} /></a>
                             </li>
                             <li className="nav-item">
-                                <a type='button' href='https://www.linkedin.com/in/auctus-tech-a01a6926b' className="links"><Icon.Linkedin style={{ color: 'white' }} /></a>
+                                <a type='button' href='' className="links"><Icon.Linkedin style={{ color: 'white' }} /></a>
                             </li>
                         </ul>
                     </div>

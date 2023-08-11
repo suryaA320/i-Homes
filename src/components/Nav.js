@@ -65,11 +65,11 @@ const Nav = () => {
                 <a className="navbar-brand" type='button' style={{ marginLeft: '20px' }} onClick={homePage}>
                     <img src={logo} alt='i homes prarambh' width={60} />
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span className="navbar-toggler-icon" id='toggle-icon'></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-                    <ul class="navbar-nav" >
+                <div className="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                    <ul className="navbar-nav" >
                         <li className="nav-item">
                             <a type='button' className="links" style={{ color: 'white' }} onClick={homePage}>Home</a>
                         </li>

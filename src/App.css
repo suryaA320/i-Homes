@@ -346,6 +346,10 @@
   font-weight: lighter;
 }
 
+#toggle-icon {
+  color: white;
+}
+
 #building-images {
   width: 100%;
   height: auto;

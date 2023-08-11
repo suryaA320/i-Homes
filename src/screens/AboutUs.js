@@ -42,12 +42,14 @@ const AboutUs = () => {
                         <h3 id='contact-us-letter' style={{ marginBottom: '50px' }}>About US</h3>
 
                         <div id='About-us-content'>
-                        Auctus Technologies is a skilled and dynamic company engaged in Human Resource Consulting services, 
-                        primarily concentrating on Information Technology, ITES, BPO services. Auctus Technologies is serving
-                        some of the world’s finest organizations. Committed to achieve maximum customer satisfaction, we offer
-                        personalized executive recruitment services with the objective of meeting the individual specific
-                        requirements of our clients in a most efficient manner. Our team adheres to the norms, work culture
-                        and the code of ethics of our clients.
+                        At i homes Prarambh, we are dedicated to transforming architectural visions into
+                        exceptional living spaces. With a proven track record of excellence, our company stands as a 
+                        cornerstone in the construction industry, specializing in crafting modern and functional apartment 
+                        complexes that meet the diverse needs of today's urban residents. Our mission is to create 
+                        superior-quality apartment buildings that not only reflect innovative design and construction 
+                        techniques but also prioritize sustainability, safety, and comfort. We believe in turning our 
+                        clients' dreams into reality by delivering meticulously planned and expertly executed projects that 
+                        enhance communities and contribute to a higher quality of life.
                         </div>
 
                     </div>

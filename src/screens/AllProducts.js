@@ -75,9 +75,11 @@ const AllProducts = () => {
 
                     <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="ads_1" style={{ textAlign: 'center', paddingLeft: '50px', paddingRight: '50px' }}>
                         <p id='first-headline'>Affordable Housing Initiatives Pave the Way for Inclusive Communities</p>
-                        <p id='block-content'>To Power the Innovation Excellence and be a
-                            spring of robust Technology solutions provider &
-                            Trusted partnet of growth for the universe of business</p>
+                        <p id='block-content'>Nestled Near TCS-Adibatla, our apartments offer the convenience of urban
+                         living while maintaining a serene ambiance. With easy access to major highways, shopping centers, 
+                         schools, and entertainment options, you'll find yourself at the center of it all. The architectural 
+                         marvel of our apartments stands out as a symbol of sophistication. Clean lines, glass expanses, 
+                         and well-planned layouts create an ambiance that is both stylish and comfortable.</p>
                         <button className="explore" onClick={contactUs} type="submit">Contact Us</button>
                     </div>
 

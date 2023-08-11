@@ -24,7 +24,7 @@ const NewCarousal = () => {
       <img src={carousal_2} class="d-block w-100" alt="i homes prarambh luxuary 2 & 3bhk apartments at adibatla" id='car-img'/>
       <div class="carousel-caption d-none d-md-block">
         <h5 id='carousal-main-2'>Designed to exceed your expectations</h5>
-        <p id='carousal-subtext-2'>Some representative placeholder content for the first slide.</p>
+        <p id='carousal-subtext-2'>Luxuary Apartments that fit your style.</p>
         <button className="carousal-button">Explore</button>
       </div>
     </div>

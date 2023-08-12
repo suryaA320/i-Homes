@@ -3,7 +3,7 @@ import React from 'react'
 import * as Icon from 'react-bootstrap-icons';
 import '../App.css';
 import { useNavigate } from "react-router-dom";
-import logo from '../images/carousImages/Logo-ihomes.jpg'
+import logo from '../images/carousImages/Logo-ihomes.png'
 
 
 const Nav = () => {
@@ -63,7 +63,7 @@ const Nav = () => {
         <nav class="navbar navbar-expand-sm  fixed-top" style={{ padding: '0px' }} id='nav-bar'>
             <div class="container-fluid">
                 <a className="navbar-brand" type='button' style={{ marginLeft: '20px' }} onClick={homePage}>
-                    <img src={logo} alt='i homes prarambh' width={60} />
+                    <img src={logo} alt='i homes prarambh' width={70} />
                 </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                     <span className="navbar-toggler-icon" id='toggle-icon'></span>

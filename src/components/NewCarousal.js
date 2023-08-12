@@ -14,7 +14,7 @@ const NewCarousal = () => {
     <div class="carousel-item active">
       <img src={carousal_1} class="d-block w-100" alt="i homes prarambh luxuary 2 & 3bhk apartments at adibatla" id='car-img'/>
       <div class="carousel-caption d-none d-md-block">
-        <h5 id='carousal-main'>i Homes Prarambh</h5>
+        <h5 id='carousal-main'>i Homes</h5>
         <p id='carousal-subtext'>2 & 3BHK Luxuary Apartments @TCS Adibatla.</p>
         <button className="carousal-button">Explore</button>
       </div>

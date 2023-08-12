@@ -50,7 +50,7 @@ const AllProducts = () => {
             </div>
 
             <div>
-                <p id='prarambh-text'>i Homes Prarambh</p>
+                <p id='prarambh-text' className='reveal fade-bottom'>i Homes Prarambh</p>
             </div>
 
             <div className='container-fluid reveal fade-bottom' id='first-block' >

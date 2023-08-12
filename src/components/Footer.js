@@ -3,6 +3,7 @@ import React from 'react'
 import { Col, Row } from 'reactstrap'
 import * as Icon from 'react-bootstrap-icons';
 import { useNavigate } from "react-router-dom";
+import QR from '../images/ProductImages/QR-code.png'
 
 const Footer = () => {
 
@@ -55,9 +56,11 @@ const Footer = () => {
                 </Col>
                 <Col className='my-auto' xs={12} md={4}>
                     <ul style={{ listStyleType: 'none', lineHeight: '50px' }}>
-                    <li><a onClick={homePage} type='button'>Home</a></li>
+                        <li><a onClick={homePage} type='button'>Home</a></li>
                         <li><a onClick={aboutUs} type='button'>About us</a></li>
                         <li><a onClick={contactUs} type='button'>Contact us</a></li>
+                        <li>Scan QR for Location.</li>
+                        <li id='qr-code-img'><img src={QR} alt='i homes location near adibatla hyderabad' id='qr-code-img' /></li>
                     </ul>
                 </Col>
             </Row>

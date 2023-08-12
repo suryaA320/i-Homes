@@ -433,6 +433,11 @@
   }
 }
 
+#qr-code-img {
+  height: 200px;
+  width: auto;
+}
+
 .reveal {
   position: relative;
   opacity: 0;

@@ -71,7 +71,8 @@ const Nav = () => {
                 <div className="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
                     <ul className="navbar-nav" >
                         <li className="nav-item">
-                            <a type='button' className="nav-links" onClick={homePage}>Home</a>
+                            <a type='button' href='#' className="nav-links" onClick={homePage}>Home</a>
+                            {/* <button className="nav-links" onClick={homePage}>Home</button> */}
                         </li>
                         <li className="nav-item">
                             <a type='button' className="nav-links" onClick={ourProjects}>Our Projects</a>

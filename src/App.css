@@ -329,16 +329,17 @@
   height: 100vh;
   position: relative;
   width: 100%;
-  background-image: url("../src/images/carousImages/carousal_1.jpg") !important;
   -webkit-filter: brightness(30%);
 }
 
 #car-img-2 {
   -webkit-background-size: cover;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
+  position: relative;
+  width: 100%;
   -webkit-filter: brightness(30%);
 }
 
@@ -349,12 +350,11 @@
     background-position: center;
   }
 
-  /* #car-img-2 {
-    font-size: 14px;
+  #car-img-2 {
     height: 100vh;
-    width: 50%;
-    background-image: url();
-  } */
+    width: 300% !important;
+    background-position: center;
+  }
 }
 
 #carousal-main {

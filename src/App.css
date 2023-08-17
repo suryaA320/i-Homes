@@ -874,6 +874,7 @@
   font-size: 16px;
   text-align: left;
   color: #6d6b6b;
+  padding: 15px;
 }
 
 #project-block {
@@ -914,6 +915,11 @@
   #project-block {
     margin-top: 50px;
     text-align: left;
+  }
+
+  #subtext {
+    color: #544d4d;
+  font-size: 22px;
   }
 }
 

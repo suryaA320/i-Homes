@@ -6,8 +6,10 @@ import HD_View from '../images/ProductImages/HD-View-2.jpg';
 import FloorPlan from '../images/ProductImages/Floor-Plan.jpg';
 import specifications from '../images/ProductImages/Specifications.jpg'
 import { useNavigate } from "react-router-dom";
-import { Col, Row } from 'reactstrap';
+import { Card, Col, Row } from 'reactstrap';
 import NewCarousal from '../components/NewCarousal';
+import * as Icon from 'react-bootstrap-icons';
+
 
 const AllProducts = () => {
     let navigate = useNavigate();
@@ -80,10 +82,10 @@ const AllProducts = () => {
                     <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="ads_1" style={{ textAlign: 'center', paddingLeft: '50px', paddingRight: '50px' }}>
                         <p id='first-headline'>Affordable Housing Initiatives Pave the Way for Inclusive Communities</p>
                         <p id='block-content'>Nestled Near TCS-Adibatla, our apartments offer the convenience of urban
-                         living while maintaining a serene ambiance. With easy access to major highways, shopping centers, 
-                         schools, and entertainment options, you'll find yourself at the center of it all. The architectural 
-                         marvel of our apartments stands out as a symbol of sophistication. Clean lines, glass expanses, 
-                         and well-planned layouts create an ambiance that is both stylish and comfortable.</p>
+                            living while maintaining a serene ambiance. With easy access to major highways, shopping centers,
+                            schools, and entertainment options, you'll find yourself at the center of it all. The architectural
+                            marvel of our apartments stands out as a symbol of sophistication. Clean lines, glass expanses,
+                            and well-planned layouts create an ambiance that is both stylish and comfortable.</p>
                         <button className="explore" onClick={contactUs} type="submit">Contact Us</button>
                     </div>
 
@@ -106,6 +108,62 @@ const AllProducts = () => {
                             environmentally conscious, modern, and thoughtfully designed spaces that stand the test of time.
                         </p>
                         <button className="discover-more-button" onClick={contactUs} type="submit">Discover More</button>
+                    </div>
+                </div>
+            </div>
+
+            <div className='container-fluid reveal fade-bottom' id='initial'>
+                <div className='container'>
+                    <p id='headline'>Values We Follow</p>
+                    <div className='container'>
+                        <Row>
+                            <Col xs={12} md={3} id='try'>
+                                <Card id='round-img'>
+                                    <Icon.People id='icon'/>
+                                </Card>
+                                <div id='content-card'>
+                                    <h3 style={{marginTop:'100px'}}>Expertise</h3>
+                                    <p style={{ marginTop: '30px' }}>Our team of seasoned architects, engineers, and construction professionals brings a wealth
+                                        of knowledge and experience to every project. </p>
+                                </div>
+                            </Col>
+
+                            <Col xs={12} md={3} id='try'>
+                                <Card id='round-img'>
+                                <Icon.ZoomIn id='icon'/>
+                                </Card>
+                                <div id='content-card'>
+                                    <h3 style={{marginTop:'100px'}}>Transparency</h3>
+                                    <p style={{ marginTop: '30px' }}>Open communication and transparency are fundamental to our client 
+                                    relationships. </p>
+                                </div>
+                            </Col>
+
+                            <Col xs={12} md={3} id='try'>
+                                <Card id='round-img'>
+                                <Icon.Bezier2 id='icon'/>
+                                </Card>
+                                <div id='content-card'>
+                                    <h3 style={{marginTop:'100px'}}>Innovation</h3>
+                                    <p style={{ marginTop: '30px' }}>We embrace cutting-edge construction methods and materials to 
+                                    create apartment buildings that are not only aesthetically pleasing but also technologically 
+                                    advanced and energy-efficient.</p>
+                                </div>
+                            </Col>
+
+                            <Col xs={12} md={3} id='try'>
+                                <Card id='round-img'>
+                                <Icon.BookmarkStarFill id='icon'/>
+                                </Card>
+                                <div id='content-card'>
+                                    <h3 style={{marginTop:'100px'}}>Quality Assurance</h3>
+                                    <p style={{ marginTop: '30px' }}> Quality is our top priority. Our rigorous quality assurance 
+                                    processes and attention to detail at every stage of construction guarantee that the finished product 
+                                    surpasses expectations </p>
+                                </div>
+                            </Col>
+
+                        </Row>
                     </div>
                 </div>
             </div>

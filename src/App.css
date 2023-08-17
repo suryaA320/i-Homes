@@ -300,6 +300,10 @@
   #collapsibleNavbar {
     background-color: #212836;
   }
+  
+  #nav-links {
+    background-color: #212836;
+  }
 }
 
 @media (max-width: 767px) {

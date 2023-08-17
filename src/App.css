@@ -303,7 +303,7 @@
     display: flex;
     flex-direction: column;
   }
-  
+
 }
 
 @media (max-width: 767px) {
@@ -311,6 +311,7 @@
     width: 100% !important;
     margin: 5px;
   }
+
   #right {
     width: 100% !important;
     margin-left: 0px !important;
@@ -320,26 +321,40 @@
 }
 
 
-#car-img {
-  /* height: 810px; */
-  /* background-size: cover;
-  background-position: center; */
+#car-img-1 {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  background-image: url("../src/images/carousImages/carousal_1.jpg") !important;
+  -webkit-filter: brightness(30%);
+}
+
+#car-img-2 {
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   height: 100vh;
   -webkit-filter: brightness(30%);
-  /* width: 100%;
-  height: auto; */
 }
 
 @media (max-width: 767px) {
-  #car-img {
+  #car-img-1 {
+    height: 100vh;
+    width: 300% !important;
+    background-position: center;
+  }
+
+  /* #car-img-2 {
     font-size: 14px;
     height: 100vh;
     width: 50%;
-  }
+    background-image: url();
+  } */
 }
 
 #carousal-main {
@@ -354,6 +369,53 @@
   padding-bottom: 30px;
   font-family: 'Noto Serif Display', serif;
   color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  #carousal-main {
+    font-size: 28px;
+    padding-bottom: 3px;
+    font-family: 'Noto Serif Display', serif;
+    color: #ffffff;
+  }
+
+  #carousal-main-2 {
+    font-size: 28px;
+    padding-bottom: 30px;
+    font-family: 'Noto Serif Display', serif;
+    color: #ffffff;
+  }
+
+  #carousal-subtext {
+    font-size: 14px !important;
+    padding-bottom: 3px;
+    font-family: 'Noto Serif Display', serif;
+    color: #ffffff;
+    font-weight: lighter;
+  }
+
+  #carousal-subtext-2 {
+    font-size: 14px !important;
+    padding-bottom: 10px;
+    font-family: 'Noto Serif Display', serif;
+    color: #ffffff;
+    font-weight: lighter;
+  }
+
+  .carousal-button {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #5b035b;
+    color: white;
+    border: 0;
+    /* margin-bottom: 250px; */
+    font-size: 18px;
+  }
+}
+
+#hero {
+  top: 40%;
 }
 
 #carousal-subtext {
@@ -372,7 +434,32 @@
   font-weight: lighter;
 }
 
-#toggle-icon {
+.carousal-button {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #5b035b;
+  color: white;
+  border: 0;
+  font-size: 18px;
+}
+
+@media (max-width: 767px) {
+  
+}
+
+.carousal-button:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s ease;
+}
+
+#toggles-icon {
+  background-color: white !important;
+  border: 0px solid white;
+}
+
+.navbar-toggler {
   color: white;
 }
 
@@ -479,22 +566,7 @@
   }
 }
 
-.carousal-button {
-  width: 200px;
-  height: 50px;
-  border-radius: 5px;
-  background-color: #5b035b;
-  color: white;
-  border: 0;
-  margin-bottom: 250px;
-  font-size: 18px;
-}
 
-.carousal-button:hover {
-  background-color: white;
-  color: black;
-  transition: 0.5s ease;
-}
 
 #service-title {
   text-align: center;

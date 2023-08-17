@@ -876,6 +876,11 @@
   color: #6d6b6b;
 }
 
+#project-block {
+  margin-top: 150px;
+  text-align: left;
+}
+
 .brochure {
   width: 50%;
   height: 50px;
@@ -896,6 +901,19 @@
   #projects-headline {
     font-size: 32px;
     /* Adjust this value as needed */
+  }
+
+  #previous-projects-text{
+    font-size: 32px !important;
+  }
+
+  #upcoming-projects-text {
+    font-size: 32px !important;
+  }
+
+  #project-block {
+    margin-top: 50px;
+    text-align: left;
   }
 }
 

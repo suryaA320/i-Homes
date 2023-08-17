@@ -54,7 +54,7 @@ const Projects = () => {
             <div>
               <p id='upcoming-projects-text' className='reveal fade-bottom'>Our Upcoming Projects</p>
 
-              <div className='container reveal fade-bottom' id='Third-block'>
+              <div className='container reveal fade-bottom' id='project-block'>
                 <Row>
                   <Col xs={12} md={6} style={{ marginTop: '20px' }}>
                     <div>

@@ -68,10 +68,14 @@
   transition: 0.3s ease;
 }
 
-.links {
+.nav-item {
+  padding: 20px ;
+
+}
+
+.nav-link {
   color: rgb(37, 37, 37);
   text-decoration: none;
-  padding: 20px;
 }
 
 .nav-icons {

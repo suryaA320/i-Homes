@@ -71,7 +71,7 @@ const Nav = () => {
                 <div className="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
                     <ul className="navbar-nav" >
                         <li className="nav-item">
-                            <a type='button' className="links" style={{ color: 'white' }} onClick={homePage}>Home</a>
+                            <a type='button' className="nav-link" style={{ color: 'white' }} onClick={homePage}>Home</a>
                         </li>
                         <li className="nav-item">
                             <a type='button' className="links" style={{ color: 'white' }} onClick={ourProjects}>Our Projects</a>

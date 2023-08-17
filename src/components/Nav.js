@@ -63,7 +63,7 @@ const Nav = () => {
         <nav class="navbar navbar-expand-sm  fixed-top" style={{ padding: '0px' }} id='nav-bar'>
             <div class="container-fluid">
                 <a className="navbar-brand" type='button' style={{ marginLeft: '20px' }} onClick={homePage}>
-                    <img src={logo} alt='i homes prarambh' width={70} />
+                    <img src={logo} alt='i homes prarambh' width={70} id='logo-image'/>
                 </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" id='toggles-icon'>
                     <span className="navbar-toggler-icon" ></span>

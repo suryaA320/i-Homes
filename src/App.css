@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Vesper+Libre:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arapey&family=Lobster&family=Roboto:wght@500&family=Vesper+Libre:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arapey&family=Lobster&family=Noto+Serif+Display:wght@800&family=Roboto:wght@500&family=Vesper+Libre:wght@900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=Lobster&family=Noto+Serif+Display:wght@800&family=Playfair+Display:wght@600&family=Roboto:wght@500&family=Vesper+Libre:wght@900&display=swap');
 .body {
   font-family: ShopifySans, Helvetica, Arial, Lucida Grande, sans-serif;
 }
@@ -833,4 +833,85 @@
   background-color: rgb(70, 70, 255);
   color: white;
   border-radius: 10px;
+}
+
+/* PREVIOUS PROJECTS PAGE CSS */
+
+#previous-projects-text {
+  font-family: 'Noto Serif Display', serif;
+  color: #5b035b;
+  font-size: 64px;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#upcoming-projects-text{
+  font-family: 'Noto Serif Display', serif;
+  color: #5b035b;
+  font-size: 52px;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#projects-headline {
+  font-size: 42px;
+  color: #d2ae6d;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+#subtext {
+  color: #544d4d;
+  font-size: 34px;
+}
+
+#project-content {
+  font-size: 16px;
+  text-align: left;
+  color: #6d6b6b;
+}
+
+.brochure {
+  width: 50%;
+  height: 50px;
+  background-color: #d2ae6d;
+  color: white;
+  border-radius: 5px;
+  margin-top: 60px;
+  border: 0px;
+}
+
+.brochure:hover {
+  background-color: #383535;
+  color: white;
+  transition: 0.6s ease;
+}
+
+@media (max-width: 767px) {
+  #projects-headline {
+    font-size: 32px;
+    /* Adjust this value as needed */
+  }
+}
+
+#specifications-card{
+  background-color: #d2ae6d;
+  border-radius: 0 30px 0 30px;
+}
+
+#aminity-heading {
+  color: white;
+  font-size: 28px;
+  font-family: 'Playfair Display', serif;
+}
+
+#project-specifications-text {
+  color: rgb(64, 56, 56);
+  font-size: 28px;
+  font-family: 'Playfair Display', serif;
 }

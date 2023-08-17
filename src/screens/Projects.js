@@ -1,8 +1,145 @@
 import React from 'react'
+import Nav from '../components/Nav'
+import Footer from '../components/Footer'
+import HD_View from '../images/ProductImages/HD-View-2.jpg';
+import Bloom_1 from '../images/ProductImages/bloom_1.png'
+import { useNavigate } from "react-router-dom";
+import Broucher from '../images/ProductImages/brochure.pdf'
+import { Col, Row } from 'reactstrap';
+
+
 
 const Projects = () => {
+
+  let navigate = useNavigate();
+
+  const contactUs = () => {
+    let path = '/contact-us';
+    navigate(path);
+  }
   return (
-    <div>Projects</div>
+    <>
+      <div>
+        <Nav />
+      </div>
+
+      <div>
+        <div>
+          <p id='previous-projects-text' className='reveal fade-bottom'>Our Projects</p>
+        </div>
+
+        <div className='container-fluid reveal fade-bottom' id='first-block'>
+          <div className='row' >
+
+            <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="ads_1" style={{ textAlign: 'center' }}>
+              <img src={Bloom_1} alt="New York" className="d-block"
+                id='building-images' />
+            </div>
+
+            <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="ads_1" style={{ textAlign: 'center', paddingLeft: '50px', paddingRight: '50px' }}>
+              <p id='projects-headline'>SLNS & I-BLOOM</p>
+              <p id='subtext'>Together, let's lay the foundation for a brighter future</p>
+              <p id='project-content'>We are proud to present you with a home that will fill your heart with joy and your life with luxury.
+                Whether you're envisioning a new residential haven, a commercial masterpiece, or an innovative industrial facility,
+                I-Bloom is here to turn your vision into reality. Welcome to a world where dreams are built with bricks and brought to life with
+                passion. Together, let's lay the foundation for a brighter future.<br></br><br></br>
+                Flip through the pages of this brochure to witness our diverse portfolio - from majestic residential complexes to
+                state-of-the-art commercial hubs. Each project narrates a story of transformation, where ideas have flourished into iconic
+                structures that serve as symbols of progress.</p>
+              <a href={require('../images/ProductImages/brochure.pdf')} target="_blank" rel="noreferrer">
+                <button className="brochure">Download Brochure</button>
+              </a>
+            </div>
+
+            <div>
+              <p id='upcoming-projects-text' className='reveal fade-bottom'>Our Upcoming Projects</p>
+
+              <div className='container reveal fade-bottom' id='Third-block'>
+                <Row>
+                  <Col xs={12} md={6} style={{ marginTop: '20px' }}>
+                    <div>
+                      <img src={Bloom_1} alt="i homes prarambh adibatla floor plan details" className="d-block"
+                        id='building-images' />
+                    </div>
+                    <div>
+                      <p id='aminities'>I Homes Prarambh</p>
+                      <div>
+                        <ul id='Aminity-list'>
+                          <p id='project-specifications-text'>Aminities</p>
+                          <li>HMDA Approved Appartment.</li>
+                          <li>Luxuary flat as per HMDA Approved Plan.</li>
+                          <li>Vastu Compliance.</li>
+                          <li>Built-up area from 1257sft to 1803sft.</li>
+                          <li>Comprehensive Security System with cameras at appropriate locations.</li>
+                          <li>RERA Approved.</li>
+                        </ul>
+                      </div>
+                      <div id='specifications-card'>
+                        <ul id='Aminity-list'>
+                          <p id='aminity-heading'>Project Specifications</p>
+                          <li><span id='aminity-head'>RCC Super Structure:</span> RCC Super Structure with 6" Thickness</li>
+                          <li> <span id='aminity-head'>Bathrooms:</span>Built with 7.0 height Vetrified tiles with standard make.</li>
+                          <li> <span id='aminity-head'>Painting :</span> 2cotes of Assian/Birla putty and sanding to a smooth finish, 1 coat of primer & 2 cotes ofpremium emulsion</li>
+                          <li> <span id='aminity-head'>Balcony :</span> Rustic Ceramic Tiles of standard make in balconies.</li>
+                          <li> <span id='aminity-head'>Parking:</span> equipped with Natural Stone / parking Tiles of standard make.</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div>
+                      <a href={require('../images/ProductImages/brochure.pdf')} target="_blank" rel="noreferrer">
+                        <button className="brochure">"Prarambh" Brochure</button>
+                      </a>
+                    </div>
+                  </Col>
+                  <Col xs={12} md={6} style={{ marginTop: '20px' }}>
+                    <div>
+                      <img src={Bloom_1} alt="i homes prarambh adibatla specifications" className="d-block"
+                        id='building-images' />
+                    </div>
+                    <div>
+                      <p id='aminities'>I Homes "THE 11"</p>
+                      <div id='specifications-card'>
+                        <ul id='Aminity-list'>
+                          <p id='aminity-heading'>Aminities</p>
+                          <li>HMDA Approved Appartment.</li>
+                          <li>Luxuary flat as per HMDA Approved Plan.</li>
+                          <li>Vastu Compliance.</li>
+                          <li>Built-up area from 1257sft to 1803sft.</li>
+                          <li>Comprehensive Security System with cameras at appropriate locations.</li>
+                          <li>RERA Approved.</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <ul id='Aminity-list'>
+                        <p id='project-specifications-text'>Project Specifications</p>
+                          <li><span id='aminity-head'>RCC Super Structure:</span> RCC Super Structure with 6" Thickness</li>
+                          <li> <span id='aminity-head'>Bathrooms:</span>Built with 7.0 height Vetrified tiles with standard make.</li>
+                          <li> <span id='aminity-head'>Painting :</span> 2cotes of Assian/Birla putty and sanding to a smooth finish, 1 coat of primer & 2 cotes ofpremium emulsion</li>
+                          <li> <span id='aminity-head'>Balcony :</span> Rustic Ceramic Tiles of standard make in balconies.</li>
+                          <li> <span id='aminity-head'>Parking:</span> equipped with Natural Stone / parking Tiles of standard make.</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <a href={require('../images/ProductImages/brochure.pdf')} target="_blank" rel="noreferrer">
+                      <button className="brochure">"The 11" Brochure</button>
+                    </a>
+                  </Col>
+                </Row>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <Footer />
+      </div>
+    </>
+
+
+
+
   )
 }
 

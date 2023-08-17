@@ -31,35 +31,7 @@ const Nav = () => {
     }
 
     return (
-        // <div className="container-fluid" style={{paddingLeft:'0px', paddingRight:'0px', backgroundColor:'black'}}>
-        //     <div className='top-navbar'>
-        //         <nav className="navbar navbar-default" role="navigation">
-
-        //             <a className="navbar-brand" type='button' style={{marginLeft: '20px'}} onClick={homePage}>
-        //                 <img src={logo} alt='i homes prarambh' width={60}/>
-        //             </a>
-
-        //             <ul className="nav">
-        // <li className="nav-item">
-        //     <a type='button' className="links" style={{color:'white'}} onClick={homePage}>Home</a>
-        // </li>
-        // <li className="nav-item">
-        //     <a type='button' onClick={aboutUs} style={{color:'white'}} className="links">About us</a>
-        // </li>
-        // <li className="nav-item">
-        //     <a type='button' onClick={contactUs} style={{color:'white'}} className="links">Contact us</a>
-        // </li>
-        //             </ul>
-
-
-        //             <div className='icons'>
-
-        //             </div>
-        //         </nav>
-        //     </div>
-
-        // </div>
-
+        
         <nav class="navbar navbar-expand-sm  fixed-top" style={{ padding: '0px' }} id='nav-bar'>
             <div class="container-fluid">
                 <a className="navbar-brand" type='button' style={{ marginLeft: '20px' }} onClick={homePage}>

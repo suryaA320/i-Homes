@@ -1,10 +1,10 @@
 import React from 'react'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
-import HD_View from '../images/ProductImages/HD-View-2.jpg';
-import Bloom_1 from '../images/ProductImages/bloom_1.png'
+import prarambh from '../images/ProductImages/current-project.png';
+import Bloom_1 from '../images/ProductImages/bloom_1.png';
+import I_Bloom from "../images/ProductImages/project-6.png"
 import { useNavigate } from "react-router-dom";
-import Broucher from '../images/ProductImages/brochure.pdf'
 import { Col, Row } from 'reactstrap';
 
 
@@ -17,6 +17,24 @@ const Projects = () => {
     let path = '/contact-us';
     navigate(path);
   }
+
+  function reveal() {
+    var reveals = document.querySelectorAll(".reveal");
+
+    for (var i = 0; i < reveals.length; i++) {
+        var windowHeight = window.innerHeight;
+        var elementTop = reveals[i].getBoundingClientRect().top;
+        var elementVisible = 150;
+
+        if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("active");
+        } else {
+            reveals[i].classList.remove("active");
+        }
+    }
+}
+
+window.addEventListener("scroll", reveal);
   return (
     <>
       <div>
@@ -24,6 +42,12 @@ const Projects = () => {
       </div>
 
       <div>
+        <div className='container-fluid'>
+          <img src={I_Bloom} alt='i homes i bloom apartments near tcs adibatla' id='projects-container'/>
+        </div>
+
+
+
         <div>
           <p id='previous-projects-text' className='reveal fade-bottom'>Our Projects</p>
         </div>
@@ -58,10 +82,10 @@ const Projects = () => {
                 <Row>
                   <Col xs={12} md={6} style={{ marginTop: '20px' }}>
                     <div>
-                      <img src={Bloom_1} alt="i homes prarambh adibatla floor plan details" className="d-block"
+                      <img src={prarambh} alt="i homes prarambh adibatla floor plan details" className="d-block"
                         id='building-images' />
                     </div>
-                    <div>
+                    <div className='reveal fade-bottom'>
                       <p id='aminities'>I Homes Prarambh</p>
                       <div>
                         <ul id='Aminity-list'>
@@ -96,31 +120,35 @@ const Projects = () => {
                       <img src={Bloom_1} alt="i homes prarambh adibatla specifications" className="d-block"
                         id='building-images' />
                     </div>
-                    <div>
+                    <div className='reveal fade-bottom'>
                       <p id='aminities'>I Homes "THE 11"</p>
                       <div id='specifications-card'>
                         <ul id='Aminity-list'>
                           <p id='aminity-heading'>Aminities</p>
-                          <li>HMDA Approved Appartment.</li>
-                          <li>Luxuary flat as per HMDA Approved Plan.</li>
-                          <li>Vastu Compliance.</li>
-                          <li>Built-up area from 1257sft to 1803sft.</li>
-                          <li>Comprehensive Security System with cameras at appropriate locations.</li>
-                          <li>RERA Approved.</li>
+                          <li>Club House & Gym</li>
+                          <li>Grand Entry Lounge</li>
+                          <li>Indore Games</li>
+                          <li>Preview Theatre & Coffe Lounge</li>
+                          <li>2 guest Rooms & 2 Rooms For Meetings.</li>
+                          <li>Multi-purpose Hall & Conference Hall</li>
                         </ul>
                       </div>
                       <div>
                         <ul id='Aminity-list'>
-                        <p id='project-specifications-text'>Project Specifications</p>
-                          <li><span id='aminity-head'>RCC Super Structure:</span> RCC Super Structure with 6" Thickness</li>
-                          <li> <span id='aminity-head'>Bathrooms:</span>Built with 7.0 height Vetrified tiles with standard make.</li>
-                          <li> <span id='aminity-head'>Painting :</span> 2cotes of Assian/Birla putty and sanding to a smooth finish, 1 coat of primer & 2 cotes ofpremium emulsion</li>
-                          <li> <span id='aminity-head'>Balcony :</span> Rustic Ceramic Tiles of standard make in balconies.</li>
-                          <li> <span id='aminity-head'>Parking:</span> equipped with Natural Stone / parking Tiles of standard make.</li>
+                          <p id='project-specifications-text'>Project Features</p>
+                          <li>Avenue Plantation & Pollution free Environment</li>
+                          <li>Walking Track, Children Play Area & Yoga, Meditation Room.</li>
+                          <li>Cricket Pitch.</li>
+                          <li>EV Charging Station, 24x7 CCTV Surveillance.</li>
+                          <li>Earthquake Resistant Design with Fire & Safety Features.</li>
+                          <li>100% Vasthu Compliant</li>
+                          <li>Strategic Location in Prime Area.</li>
+                          <li>Excellent Ventilation for Fresh Air.</li>
+                          <li>Mygate App, Guest Parking & Many more..</li>
                         </ul>
                       </div>
                     </div>
-                    <a href={require('../images/ProductImages/brochure.pdf')} target="_blank" rel="noreferrer">
+                    <a href={require('../images/ProductImages/11.pdf')} target="_blank" rel="noreferrer">
                       <button className="brochure">"The 11" Brochure</button>
                     </a>
                   </Col>

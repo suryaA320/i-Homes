@@ -926,6 +926,9 @@
 #specifications-card{
   background-color: #d2ae6d;
   border-radius: 0 30px 0 30px;
+  padding: 20px;
+  color: #373333;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #aminity-heading {
@@ -938,4 +941,8 @@
   color: rgb(64, 56, 56);
   font-size: 28px;
   font-family: 'Playfair Display', serif;
+}
+
+#projects-container {
+  width: 100%;
 }

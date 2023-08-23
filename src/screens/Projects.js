@@ -70,7 +70,7 @@ window.addEventListener("scroll", reveal);
                 Flip through the pages of this brochure to witness our diverse portfolio - from majestic residential complexes to
                 state-of-the-art commercial hubs. Each project narrates a story of transformation, where ideas have flourished into iconic
                 structures that serve as symbols of progress.</p>
-              <a href={require('../images/ProductImages/brochure.pdf')} target="_blank" rel="noreferrer">
+              <a href={require('../images/ProductImages/SLNS.pdf')} target="_blank" rel="noreferrer">
                 <button className="brochure">Download Brochure</button>
               </a>
             </div>

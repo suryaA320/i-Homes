@@ -72,7 +72,6 @@
   padding: 20px ;
   -webkit-appearance: none;
   -moz-appearance: none;
-  background-color: #5b035b;
 
 }
 
@@ -91,6 +90,9 @@
 
 .nav-links:hover {
   color: white;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .nav-icons {
@@ -321,8 +323,10 @@
 
 @media not all and (max-height: 899px) and (min-resolution:.1dpi) {
   #nav-links {
-    background-color: #212836;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    /* background-color: #212836; */
+    /* -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */
+    -webkit-appearance: none;
+  -moz-appearance: none;
   }
 }
 

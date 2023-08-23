@@ -435,8 +435,14 @@
     font-size: 18px;
   }
 
+  #navbar-brand {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
   #logo-image {
     width: 40px;
+    
   }
 
   #toggles-icon {

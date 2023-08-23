@@ -75,6 +75,11 @@
 
 }
 
+.navbar-nav {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
 .nav-links {
   color: rgb(255, 255, 255);
   text-decoration: none;

@@ -13,7 +13,7 @@ const contactUs = () => {
                 <Nav />
             </div>
 
-            <div className='container-fluid' >
+            <div className='container-fluid' id='contactus-container'>
                 <div className='row' >
                     <div></div>
 
@@ -22,7 +22,7 @@ const contactUs = () => {
                             style={{ borderRadius: '20px' }} id='building-images'/>
                     </div>
 
-                    <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="ads_2" style={{ textAlign: 'center', paddingLeft: '50px', color: 'white', paddingRight: '50px', backgroundColor: '#222222', borderRadius: '20px' }}>
+                    <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="contact-text" >
                         <p id='contact-us-letter' >Contact US</p>
 
                         <Row id='contact-details'>

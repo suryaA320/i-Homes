@@ -93,6 +93,7 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  opacity: 10.5;
 }
 
 .nav-icons {
@@ -171,7 +172,20 @@
 }
 
 #ads_2 {
+  margin-top: 20px;
+}
+
+#contactus-container {
   margin-top: 130px;
+}
+
+#contact-text {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+  padding: 0 50px 0 50px;
+  border-radius: 20px;
+  background-color: #222222;
 }
 
 #maps {
@@ -307,6 +321,7 @@
 #nav-bar:hover {
   background-color: #1a1a1a;
   transition: 0.5s ease-in-out;
+  opacity: 0.8;
 }
 
 @media (max-width: 767px) {
@@ -459,6 +474,10 @@
 
   #toggles-icon {
     height: 40px;
+  }
+
+  #contact-us-letter {
+    font-size: 28px;
   }
 }
 

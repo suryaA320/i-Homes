@@ -19,6 +19,11 @@ const Footer = () => {
         navigate(path);
     }
 
+    const projects = () => {
+        let path = '/our-projects';
+        navigate(path);
+    }
+
     const contactUs = () => {
         let path = '/contact-us';
         navigate(path);
@@ -58,6 +63,7 @@ const Footer = () => {
                     <ul style={{ listStyleType: 'none', lineHeight: '50px' }}>
                         <li><a onClick={homePage} type='button'>Home</a></li>
                         <li><a onClick={aboutUs} type='button'>About us</a></li>
+                        <li><a onClick={projects} type='button'>Our Projects</a></li>
                         <li><a onClick={contactUs} type='button'>Contact us</a></li>
                         <li>Scan QR for Location.</li>
                         <li id='qr-code-img'><img src={QR} alt='i homes location near adibatla hyderabad' id='qr-code-img' /></li>

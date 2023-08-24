@@ -28,7 +28,7 @@ const contactUs = () => {
                         <Row id='contact-details'>
                             <Col xs={12} md={4}>
                                 <div>
-                                    <h3>Consult us @</h3>
+                                    <h3 id='heading'>Consult us @</h3>
                                     <p >Illuminati<br />
                                         #6 & 7, Second Floor, Shree Homes, <br />
                                         Hastinapuram <br />
@@ -41,14 +41,14 @@ const contactUs = () => {
 
                             <Col xs={12} md={4}>
                                 <div>
-                                    <h3>Get In Touch </h3>
+                                    <h3 id='heading'>Get In Touch </h3>
                                     <p><span style={{ marginRight: '10px' }}><Icon.Phone style={{ color: 'white' }} /></span><a href='tel:8019967799'>8074112793</a></p>
                                 </div>
                             </Col>
 
                             <Col xs={12} md={4}>
                                 <div>
-                                    <h3>Write to Us</h3>
+                                    <h3 id='heading'>Write to Us</h3>
                                     <p><span style={{ marginRight: '10px' }}><Icon.Envelope style={{ color: 'white' }} /></span>illuminatidesign@gmail.com</p>
                                 </div>
                             </Col>

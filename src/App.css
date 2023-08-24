@@ -479,6 +479,7 @@
   #contact-us-letter {
     font-size: 28px;
   }
+
 }
 
 #hero {
@@ -510,6 +511,8 @@
   border: 0;
   font-size: 18px;
 }
+
+
 
 .carousal-button:hover {
   background-color: white;
@@ -975,6 +978,11 @@
   color: white;
   font-size: 28px;
   font-family: 'Playfair Display', serif;
+}
+
+#heading {
+  text-decoration: underline;
+  color: #ffffff;
 }
 
 #project-specifications-text {

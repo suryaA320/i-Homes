@@ -29,7 +29,7 @@ const contactUs = () => {
                             <Col xs={12} md={4}>
                                 <div>
                                     <h3 id='heading'>Consult us @</h3>
-                                    <p >Illuminati<br />
+                                    <p >ihomes.<br />
                                         #6 & 7, Second Floor, Shree Homes, <br />
                                         Hastinapuram <br />
                                         Sagar Road, R.R Dist <br />
@@ -57,7 +57,7 @@ const contactUs = () => {
                     <div id='maps' className='container' >
                         <Row>
                             <Col xs={12} md={12}>
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3810.6953264270787!2d78.53997717590075!3d17.233563407216927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcba594b4ba17a7%3A0xed9a6dd8c827881f!2sIHOMES%20PRARAMBH!5e0!3m2!1sen!2sin!4v1691388758088!5m2!1sen!2sin" width="100%" height="650" style={{ border: 0, borderRadius:'20px' }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3810.6519791838637!2d78.56116107516145!3d17.235664383625906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDE0JzA4LjQiTiA3OMKwMzMnNDkuNSJF!5e0!3m2!1sen!2sin!4v1692962966738!5m2!1sen!2sin" width="100%" height="650" style={{ border: 0, borderRadius:'20px' }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </Col>
                         </Row>
                     </div>

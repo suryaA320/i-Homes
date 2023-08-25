@@ -85,7 +85,7 @@ window.addEventListener("scroll", reveal);
             </div>
 
             <div>
-              <p id='upcoming-projects-text' className='reveal fade-bottom'>Our Upcoming Projects</p>
+              {/* <p id='upcoming-projects-text' className='reveal fade-bottom'>Our Upcoming Projects</p> */}
 
               <div className='container reveal fade-bottom' id='project-block'>
                 <Row>

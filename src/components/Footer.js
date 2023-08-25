@@ -41,7 +41,7 @@ const Footer = () => {
 
                 </Col>
                 <Col className='my-auto' xs={12} md={4}>
-                    <p>i-Homes Prarambh</p>
+                    <p>i-Homes</p>
                     <div className='socialMedia-icons'>
                         <ul className="nav" >
                             <li className="nav-item">

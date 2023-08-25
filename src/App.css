@@ -9,6 +9,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arapey&family=Lobster&family=Roboto:wght@500&family=Vesper+Libre:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arapey&family=Lobster&family=Noto+Serif+Display:wght@800&family=Roboto:wght@500&family=Vesper+Libre:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arapey&family=Lobster&family=Noto+Serif+Display:wght@800&family=Playfair+Display:wght@600&family=Roboto:wght@500&family=Vesper+Libre:wght@900&display=swap');
+
 .body {
   font-family: ShopifySans, Helvetica, Arial, Lucida Grande, sans-serif;
 }
@@ -69,7 +70,7 @@
 }
 
 .nav-item {
-  padding: 20px ;
+  padding: 20px;
   -webkit-appearance: none;
   -moz-appearance: none;
 
@@ -332,8 +333,8 @@
   #collapsibleNavbar {
     background-color: #212836;
   }
-  
-  
+
+
 }
 
 @media not all and (max-height: 899px) and (min-resolution:.1dpi) {
@@ -341,7 +342,7 @@
     /* background-color: #212836; */
     /* -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */
     -webkit-appearance: none;
-  -moz-appearance: none;
+    -moz-appearance: none;
   }
 }
 
@@ -381,6 +382,17 @@
   -webkit-filter: brightness(30%);
 }
 
+#car-img-3 {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  -webkit-filter: brightness(30%);
+}
+
 #car-img-2 {
   -webkit-background-size: cover;
   background-size: cover;
@@ -391,6 +403,7 @@
   width: 100%;
   -webkit-filter: brightness(30%);
 }
+
 
 @media (max-width: 767px) {
   #car-img-1 {
@@ -404,6 +417,22 @@
     width: 300% !important;
     background-position: center;
   }
+
+  #car-img-3 {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    -webkit-filter: brightness(30%);
+  }
+}
+
+#banner-image {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../src//images/ProductImages/carousel_1.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: contain;
 }
 
 #carousal-main {
@@ -469,7 +498,7 @@
 
   #logo-image {
     width: 40px;
-    
+
   }
 
   #toggles-icon {
@@ -548,7 +577,7 @@
   padding: 30px;
   font-size: 16px;
   /* font-family: 'Noto Serif Display'; */
-  font-family:  serif;
+  font-family: serif;
   border-radius: 10px;
 }
 
@@ -890,7 +919,7 @@
   margin-bottom: 100px;
 }
 
-#upcoming-projects-text{
+#upcoming-projects-text {
   font-family: 'Noto Serif Display', serif;
   color: #5b035b;
   font-size: 52px;
@@ -947,7 +976,7 @@
     /* Adjust this value as needed */
   }
 
-  #previous-projects-text{
+  #previous-projects-text {
     font-size: 32px !important;
   }
 
@@ -962,11 +991,11 @@
 
   #subtext {
     color: #544d4d;
-  font-size: 22px;
+    font-size: 22px;
   }
 }
 
-#specifications-card{
+#specifications-card {
   background-color: #d2ae6d;
   border-radius: 0 30px 0 30px;
   padding: 20px;
@@ -989,8 +1018,4 @@
   color: rgb(64, 56, 56);
   font-size: 28px;
   font-family: 'Playfair Display', serif;
-}
-
-#projects-container {
-  width: 100%;
 }

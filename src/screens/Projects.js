@@ -3,7 +3,8 @@ import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import prarambh from '../images/ProductImages/current-project.png';
 import Bloom_1 from '../images/ProductImages/bloom_1.png';
-import I_Bloom from "../images/ProductImages/project-6.png"
+import I_Bloom from "../images/ProductImages/project-6.png";
+import I_bloom_carousel from "../images/ProductImages/carousel_1.jpeg"
 import { useNavigate } from "react-router-dom";
 import { Col, Row } from 'reactstrap';
 
@@ -42,10 +43,18 @@ window.addEventListener("scroll", reveal);
       </div>
 
       <div>
-        <div className='container-fluid'>
-          <img src={I_Bloom} alt='i homes i bloom apartments near tcs adibatla' id='projects-container'/>
+        <div className='container-fluid' >
+          <img src={I_bloom_carousel} alt='i homes i bloom apartments near tcs adibatla' id='car-img-3'/>
+          <div class="carousel-caption" id='hero'>
+            <h5 id='carousal-main'>SLNS & i</h5>
+            <p id='carousal-subtext'>Luxury Villa's near TCS Adibatla.</p>
+            <button className="carousal-button">Explore</button>
+          </div>
         </div>
 
+        {/* <div className='img-fluid' id='banner-image'>
+
+        </div> */}
 
 
         <div>
@@ -121,7 +130,7 @@ window.addEventListener("scroll", reveal);
                         id='building-images' />
                     </div>
                     <div className='reveal fade-bottom'>
-                      <p id='aminities'>I Homes "THE 11"</p>
+                      <p id='aminities'>SLNS & i</p>
                       <div id='specifications-card'>
                         <ul id='Aminity-list'>
                           <p id='aminity-heading'>Aminities</p>

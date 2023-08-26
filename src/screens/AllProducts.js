@@ -3,6 +3,7 @@ import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import Building from '../images/ProductImages/Building.jpg';
 import HD_View from '../images/ProductImages/HD-View-2.jpg';
+import HD_2 from "../images/ProductImages/img.jpg"
 import FloorPlan from '../images/ProductImages/Floor-Plan.jpg';
 import specifications from '../images/ProductImages/Specifications.jpg'
 import { useNavigate } from "react-router-dom";
@@ -95,7 +96,7 @@ const AllProducts = () => {
                     </div>
 
                     <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="ads_1" style={{ textAlign: 'center' }}>
-                        <img src={HD_View} alt="New York" className="d-block"
+                        <img src={HD_2} alt="New York" className="d-block"
                             id='building-images' />
                     </div>
 

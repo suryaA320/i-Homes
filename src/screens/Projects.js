@@ -23,19 +23,19 @@ const Projects = () => {
     var reveals = document.querySelectorAll(".reveal");
 
     for (var i = 0; i < reveals.length; i++) {
-        var windowHeight = window.innerHeight;
-        var elementTop = reveals[i].getBoundingClientRect().top;
-        var elementVisible = 150;
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 150;
 
-        if (elementTop < windowHeight - elementVisible) {
-            reveals[i].classList.add("active");
-        } else {
-            reveals[i].classList.remove("active");
-        }
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
     }
-}
+  }
 
-window.addEventListener("scroll", reveal);
+  window.addEventListener("scroll", reveal);
   return (
     <>
       <div>
@@ -44,7 +44,7 @@ window.addEventListener("scroll", reveal);
 
       <div>
         <div className='container-fluid' >
-          <img src={I_bloom_carousel} alt='i homes i bloom apartments near tcs adibatla' id='car-img-3'/>
+          <img src={I_bloom_carousel} alt='i homes i bloom apartments near tcs adibatla' id='car-img-3' />
           <div class="carousel-caption" id='hero'>
             <h5 id='carousal-main'>SLNS & i</h5>
             <p id='carousal-subtext'>Luxury Villa's near TCS Adibatla.</p>
@@ -87,7 +87,7 @@ window.addEventListener("scroll", reveal);
             <div>
               {/* <p id='upcoming-projects-text' className='reveal fade-bottom'>Our Upcoming Projects</p> */}
 
-              <div className='container reveal fade-bottom' id='project-block'>
+              {/* <div className='container reveal fade-bottom' id='project-block'>
                 <Row>
                   <Col xs={12} md={6} style={{ marginTop: '20px' }}>
                     <div>
@@ -162,9 +162,100 @@ window.addEventListener("scroll", reveal);
                     </a>
                   </Col>
                 </Row>
-              </div>
+              </div> */}
             </div>
+          </div>
 
+          <hr></hr>
+
+          <div className='container-fluid' id='spec-container'>
+            <Row>
+              <Col xs={12} md={6}>
+                <div className='reveal fade-bottom' id='written-content'>
+                  <p id='aminities'>I Homes Prarambh</p>
+                  <div>
+                    <ul id='Aminity-list'>
+                      <p id='project-specifications-text'>Aminities</p>
+                      <li>HMDA Approved Appartment.</li>
+                      <li>Luxuary flat as per HMDA Approved Plan.</li>
+                      <li>Vastu Compliance.</li>
+                      <li>Built-up area from 1257sft to 1803sft.</li>
+                      <li>Comprehensive Security System with cameras at appropriate locations.</li>
+                      <li>RERA Approved.</li>
+                    </ul>
+                  </div>
+                  <div id='specifications-card'>
+                    <ul id='Aminity-list'>
+                      <p id='aminity-heading'>Project Specifications</p>
+                      <li><span id='aminity-head'>RCC Super Structure:</span> RCC Super Structure with 6" Thickness</li>
+                      <li> <span id='aminity-head'>Bathrooms:</span>Built with 7.0 height Vetrified tiles with standard make.</li>
+                      <li> <span id='aminity-head'>Painting :</span> 2cotes of Assian/Birla putty and sanding to a smooth finish, 1 coat of primer & 2 cotes ofpremium emulsion</li>
+                      <li> <span id='aminity-head'>Balcony :</span> Rustic Ceramic Tiles of standard make in balconies.</li>
+                      <li> <span id='aminity-head'>Parking:</span> equipped with Natural Stone / parking Tiles of standard make.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div>
+                  <a href={require('../images/ProductImages/brochure.pdf')} target="_blank" rel="noreferrer">
+                    <button className="brochure">"Prarambh" Brochure</button>
+                  </a>
+                </div>
+              </Col>
+
+              <Col xs={12} md={6}>
+                <div>
+                  <img src={prarambh} alt="i homes prarambh adibatla floor plan details" className="d-block"
+                    id='building-images' />
+                </div>
+              </Col>
+            </Row>
+          </div>
+
+          <hr></hr>
+
+          <div className='container-fluid' id='spec-container'>
+            <Row>
+              <Col xs={12} md={6}>
+                <div>
+                  <img src={Bloom_1} alt="i homes prarambh adibatla specifications" className="d-block"
+                    id='building-images' />
+                </div>
+              </Col>
+
+              <Col xs={12} md={6}>
+                <div className='reveal fade-bottom'>
+                  <p id='aminities'>SLNS & i</p>
+                  <div id='specifications-card'>
+                    <ul id='Aminity-list'>
+                      <p id='aminity-heading'>Aminities</p>
+                      <li>Club House & Gym</li>
+                      <li>Grand Entry Lounge</li>
+                      <li>Indore Games</li>
+                      <li>Preview Theatre & Coffe Lounge</li>
+                      <li>2 guest Rooms & 2 Rooms For Meetings.</li>
+                      <li>Multi-purpose Hall & Conference Hall</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <ul id='Aminity-list'>
+                      <p id='project-specifications-text'>Project Features</p>
+                      <li>Avenue Plantation & Pollution free Environment</li>
+                      <li>Walking Track, Children Play Area & Yoga, Meditation Room.</li>
+                      <li>Cricket Pitch.</li>
+                      <li>EV Charging Station, 24x7 CCTV Surveillance.</li>
+                      <li>Earthquake Resistant Design with Fire & Safety Features.</li>
+                      <li>100% Vasthu Compliant</li>
+                      <li>Strategic Location in Prime Area.</li>
+                      <li>Excellent Ventilation for Fresh Air.</li>
+                      <li>Mygate App, Guest Parking & Many more..</li>
+                    </ul>
+                  </div>
+                </div>
+                <a href={require('../images/ProductImages/11.pdf')} target="_blank" rel="noreferrer">
+                  <button className="brochure">"The 11" Brochure</button>
+                </a>
+              </Col>
+            </Row>
           </div>
         </div>
       </div>

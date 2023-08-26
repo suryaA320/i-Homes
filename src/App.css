@@ -180,6 +180,10 @@
   margin-top: 130px;
 }
 
+#written-content {
+  align-content: center;
+}
+
 #contact-text {
   margin-top: 20px;
   text-align: center;
@@ -277,18 +281,26 @@
   text-decoration: underline;
 }
 
+#spec-container {
+  margin: 300px 0 300px 0;
+}
+
 @media (max-width: 767px) {
   #our-projects {
     font-size: 32px;
   }
+
+  #spec-container {
+    margin: 100px 0 100px 0;
+  }
 }
 
 #aminities {
-  color: #5b035b;
-  font-family: 'Lobster', cursive;
-  font-family: 'Vesper Libre', serif;
-  font-size: 32px;
+  color: #d2ae6d;
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
   margin-top: 20px;
+  text-align: center;
 }
 
 @media (max-width: 767px) {
@@ -309,7 +321,7 @@
 }
 
 #Aminity-list {
-  font-size: 20px;
+  font-size: 16px;
   color: #3e3e3e;
 }
 
@@ -960,7 +972,7 @@
   background-color: #d2ae6d;
   color: white;
   border-radius: 5px;
-  margin-top: 60px;
+  margin: 60px 0 60px 0;
   border: 0px;
 }
 
@@ -993,6 +1005,17 @@
     color: #544d4d;
     font-size: 22px;
   }
+
+  .brochure {
+    width: 50%;
+    height: 50px;
+    background-color: #d2ae6d;
+    color: white;
+    border-radius: 5px;
+    margin: 30px 0 30px 0;
+    align-items: center;
+    border: 0px;
+  }
 }
 
 #specifications-card {
@@ -1007,6 +1030,7 @@
   color: white;
   font-size: 28px;
   font-family: 'Playfair Display', serif;
+  text-decoration: underline;
 }
 
 #heading {
@@ -1018,4 +1042,5 @@
   color: rgb(64, 56, 56);
   font-size: 28px;
   font-family: 'Playfair Display', serif;
+  text-decoration: underline;
 }

@@ -3,7 +3,7 @@ import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import prarambh from '../images/ProductImages/current-project.png';
 import Bloom_1 from '../images/ProductImages/bloom_1.png';
-import I_Bloom from "../images/ProductImages/project-6.png";
+import I_Bloom from "../images/ProductImages/The11.jpg";
 import I_bloom_carousel from "../images/ProductImages/carousel_1.jpeg"
 import { useNavigate } from "react-router-dom";
 import { Col, Row } from 'reactstrap';
@@ -65,7 +65,7 @@ const Projects = () => {
           <div className='row' >
 
             <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="ads_1" style={{ textAlign: 'center' }}>
-              <img src={Bloom_1} alt="New York" className="d-block"
+              <img src={Bloom_1} alt="slns and i bloom luxury villas in hyderabad." className="d-block"
                 id='building-images' />
             </div>
 
@@ -217,7 +217,7 @@ const Projects = () => {
             <Row>
               <Col xs={12} md={6}>
                 <div>
-                  <img src={Bloom_1} alt="i homes prarambh adibatla specifications" className="d-block"
+                  <img src={I_Bloom} alt="slns & i luxury villas specifications" className="d-block"
                     id='building-images' />
                 </div>
               </Col>
@@ -251,7 +251,7 @@ const Projects = () => {
                     </ul>
                   </div>
                 </div>
-                <a href={require('../images/ProductImages/11.pdf')} target="_blank" rel="noreferrer">
+                <a href={require('../images/ProductImages/the11new.pdf')} target="_blank" rel="noreferrer">
                   <button className="brochure">"The 11" Brochure</button>
                 </a>
               </Col>

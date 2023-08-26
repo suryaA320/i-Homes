@@ -3,6 +3,7 @@ import React from 'react'
 import { Col, Row } from 'reactstrap'
 import * as Icon from 'react-bootstrap-icons';
 import { useNavigate } from "react-router-dom";
+import Logo from "../images/carousImages/Logo-ihomes.png"
 import QR from '../images/ProductImages/QR-code.png'
 
 const Footer = () => {
@@ -32,15 +33,12 @@ const Footer = () => {
     return (
         <div className="container-fluid mt-5" id="footer" style={{ height: 'auto' }}>
             <Row style={{ marginTop: '50px', textAlign: 'center', paddingTop: '100px', paddingBottom: '100px' }}>
-                <Col className='my-auto' xs={12} md={4} >
+                <Col className='my-auto' xs={12} md={4} id='footer-col-style'>
                     <h2>i-Homes</h2>
                     <p>2 & 3 BHK, Premium Luxuary Apartments</p>
                     <p>@ TCS ADIBATLA</p>
-
-
-
                 </Col>
-                <Col className='my-auto' xs={12} md={4}>
+                <Col className='my-auto' xs={12} md={4} id='footer-col-style'>
                     <p>i-Homes</p>
                     <div className='socialMedia-icons'>
                         <ul className="nav" >
@@ -58,8 +56,11 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
+                    <div>
+                        <img src={Logo} width={80} alt='i homes logo' style={{marginTop: '50px'}}/>
+                    </div>
                 </Col>
-                <Col className='my-auto' xs={12} md={4}>
+                <Col className='my-auto' xs={12} md={4} id='footer-col-style'>
                     <ul style={{ listStyleType: 'none', lineHeight: '50px' }}>
                         <li><a onClick={homePage} type='button'>Home</a></li>
                         <li><a onClick={aboutUs} type='button'>About us</a></li>

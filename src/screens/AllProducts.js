@@ -19,6 +19,11 @@ const AllProducts = () => {
         navigate(path);
     }
 
+    const projects = () => {
+        let path = `/our-projects`;
+        navigate(path);
+    }
+
     const contactUs = () => {
         let path = `/contact-us`;
         navigate(path);
@@ -69,7 +74,7 @@ const AllProducts = () => {
                             Designed to exceed your expectations, our meticulously crafted residences offer an unparalleled living experience
                             that combines contemporary aesthetics with thoughtful functionality. Welcome to a place where every detail has
                             been carefully considered to create a home that truly elevates your lifestyle.</p>
-                        <button className="explore" onClick={aboutUs} type="submit">Explore More</button>
+                        <button className="explore" onClick={projects} type="submit">Explore More</button>
                     </div>
 
                 </div>

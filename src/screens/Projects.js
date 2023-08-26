@@ -5,6 +5,8 @@ import prarambh from '../images/ProductImages/current-project.png';
 import Bloom_1 from '../images/ProductImages/bloom_1.png';
 import I_Bloom from "../images/ProductImages/The11.jpg";
 import I_bloom_carousel from "../images/ProductImages/carousel_1.jpeg"
+import SLNS from "../images/ProductImages/slns-i.png";
+import the11_logo from "../images/ProductImages/11logo.jpg"
 import { useNavigate } from "react-router-dom";
 import { Col, Row } from 'reactstrap';
 
@@ -57,12 +59,9 @@ const Projects = () => {
         </div> */}
 
 
-        <div>
-          <p id='previous-projects-text' className='reveal fade-bottom'>Our Projects</p>
-        </div>
-
         <div className='container-fluid reveal fade-bottom' id='first-block'>
-          <div className='row' style={{marginBottom:'100px'}}>
+
+          <div className='row' style={{ marginBottom: '100px' }}>
             <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="ads_1" style={{ textAlign: 'center' }}>
               <img src={Bloom_1} alt="slns and i bloom luxury villas in hyderabad." className="d-block"
                 id='building-images' />
@@ -85,6 +84,55 @@ const Projects = () => {
           </div>
 
           <hr></hr>
+
+          <div>
+            <p id='previous-projects-text' className='reveal fade-bottom'>Our Projects</p>
+          </div>
+
+          <div className='container-fluid' id='spec-container-2'>
+            <Row>
+              <Col xs={12} md={6}>
+                <div>
+                  <img src={SLNS} alt="slns & i luxury villas specifications" className="d-block"
+                    id='building-images' />
+                </div>
+              </Col>
+
+              <Col xs={12} md={6}>
+                <div className='reveal fade-bottom'>
+                  <p id='aminities'>SLNS & I-BLOOM</p>
+                  <div id='specifications-card'>
+                    <ul id='Aminity-list'>
+                      <p id='aminity-heading'>Aminities</p>
+                      <li>Swimming Pool & Toddler Pool.</li>
+                      <li>Gymnasium & 24Hr Power Backup.</li>
+                      <li>Avenue Plantation & Landscape.</li>
+                      <li>Main Road 50' and 40' Wide B.T Roads.</li>
+                      <li>Internal Roads 30' Wide B.T Roads.</li>
+                      <li>Mini Theatre.</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <ul id='Aminity-list'>
+                      <p id='project-specifications-text'>Project Specifications</p>
+                      <li>HMDA Approved Gated Community Project.</li>
+                      <li>Luxury Duplex Villas as per HMDA Approved Plan.</li>
+                      <li>Built-Up Areas From 3000 SqFt To 4500 SqFt.</li>
+                      <li>Entrance Arch.</li>
+                      <li>Club House (Area 10,000 To 15,000 Sq.ft)</li>
+                      <li>100% Vasthu Complian.t</li>
+                      <li>Tennis Court.</li>
+                      <li>All Round Compound Wall With Solar Fencing.</li>
+                      <li>Children Park & Many more..</li>
+                    </ul>
+                  </div>
+                </div>
+                <a href={require('../images/ProductImages/SLNS.pdf')} target="_blank" rel="noreferrer">
+                <button className="brochure">SLNS & I Brochure</button>
+              </a>
+              </Col>
+            </Row>
+          </div>
 
           <div className='container-fluid' id='spec-container'>
             <Row>
@@ -144,7 +192,7 @@ const Projects = () => {
 
               <Col xs={12} md={6}>
                 <div className='reveal fade-bottom'>
-                  <p id='aminities'>The 11</p>
+                  <img src={the11_logo} alt='i homes the 11 luxury apartments' id='the-logo'/>
                   <div id='specifications-card'>
                     <ul id='Aminity-list'>
                       <p id='aminity-heading'>Aminities</p>
@@ -177,6 +225,7 @@ const Projects = () => {
               </Col>
             </Row>
           </div>
+
         </div>
       </div>
 

@@ -627,7 +627,6 @@
   width: 100%;
   height: auto;
   transition: transform .5s;
-  padding: 50px;
 }
 
 #building-images:hover {

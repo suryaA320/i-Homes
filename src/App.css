@@ -245,12 +245,12 @@
 
 @media (max-width: 767px) {
   #first-headline {
-    font-size: 32px;
+    font-size: 26px;
     /* Adjust this value as needed */
   }
 
   #block-content {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .explore {

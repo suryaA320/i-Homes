@@ -10,6 +10,10 @@ const Nav = () => {
 
     let navigate = useNavigate();
 
+    const scrollToTop = () => {
+        window.scrollTo(0, 0)
+    }
+
     const homePage = () => {
         let path = `/`;
         navigate(path);
@@ -42,17 +46,16 @@ const Nav = () => {
                 </button>
                 <div className="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
                     <ul className="navbar-nav" >
-                        <li className="nav-item">
+                        <li className="nav-item" onClick={scrollToTop}>
                             <a type='button' className="nav-links" onClick={homePage}>Home</a>
-                            {/* <button className="nav-links" onClick={homePage}>Home</button> */}
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item" onClick={scrollToTop}>
                             <a type='button' className="nav-links" onClick={ourProjects}>Our Projects</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item" onClick={scrollToTop}>
                             <a type='button' onClick={aboutUs}  className="nav-links">About us</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item" onClick={scrollToTop}>
                             <a type='button' onClick={contactUs} className="nav-links">Contact us</a>
                         </li>
                     </ul>

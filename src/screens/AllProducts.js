@@ -123,7 +123,7 @@ const AllProducts = () => {
                     <p id='headline'>Values We Follow</p>
                     <div className='container'>
                         <Row>
-                            <Col xs={12} md={3} id='try'>
+                            <Col xs={12} md={3} >
                                 <Card id='round-img'>
                                     <Icon.People id='icon'/>
                                 </Card>
@@ -134,7 +134,7 @@ const AllProducts = () => {
                                 </div>
                             </Col>
 
-                            <Col xs={12} md={3} id='try'>
+                            <Col xs={12} md={3} >
                                 <Card id='round-img'>
                                 <Icon.ZoomIn id='icon'/>
                                 </Card>
@@ -145,7 +145,7 @@ const AllProducts = () => {
                                 </div>
                             </Col>
 
-                            <Col xs={12} md={3} id='try'>
+                            <Col xs={12} md={3} >
                                 <Card id='round-img'>
                                 <Icon.Bezier2 id='icon'/>
                                 </Card>
@@ -157,7 +157,7 @@ const AllProducts = () => {
                                 </div>
                             </Col>
 
-                            <Col xs={12} md={3} id='try'>
+                            <Col xs={12} md={3}>
                                 <Card id='round-img'>
                                 <Icon.BookmarkStarFill id='icon'/>
                                 </Card>

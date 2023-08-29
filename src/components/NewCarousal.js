@@ -2,8 +2,15 @@ import React from 'react'
 import carousal_1 from '../images/carousImages/carousal_1.jpg';
 import carousal_2 from '../images/carousImages/carousal_2.jpg';
 import { Button } from 'reactstrap';
+import { useNavigate } from "react-router-dom";
 
 const NewCarousal = () => {
+  let navigate = useNavigate();
+
+  const projects = () => {
+    let path = '/our-projects';
+    navigate(path);
+  }
   return (
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -16,7 +23,7 @@ const NewCarousal = () => {
           <div class="carousel-caption" id='hero'>
             <h5 id='carousal-main'>i Homes</h5>
             <p id='carousal-subtext'>2 & 3BHK Luxuary Apartments @TCS Adibatla.</p>
-            <button className="carousal-button">Explore</button>
+            <button onClick={projects} className="carousal-button">Explore</button>
           </div>
 
         </div>
@@ -25,7 +32,7 @@ const NewCarousal = () => {
           <div class="carousel-caption" id='hero'>
             <h5 id='carousal-main-2'>Designed to exceed your expectations</h5>
             <p id='carousal-subtext-2'>Luxuary Apartments that fit your style.</p>
-            <button className="carousal-button">Explore</button>
+            <button onClick={projects} className="carousal-button">Explore</button>
           </div>
         </div>
       </div>

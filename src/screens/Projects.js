@@ -50,7 +50,7 @@ const Projects = () => {
           <div class="carousel-caption" id='hero'>
             <h5 id='carousal-main'>SLNS & i</h5>
             <p id='carousal-subtext'>Luxury Villa's at Manneguda.</p>
-            <button className="carousal-button">Explore</button>
+            <button onClick={contactUs} className="carousal-button">Know more</button>
           </div>
         </div>
 

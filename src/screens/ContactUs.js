@@ -29,7 +29,7 @@ const contactUs = () => {
                             <Col xs={12} md={4}>
                                 <div>
                                     <h3 id='heading'>Consult us @</h3>
-                                    <p >ihomes.<br />
+                                    <p >ihomedevelopers .<br />
                                         #6 & 7, Second Floor, Shree Homes, <br />
                                         Hastinapuram <br />
                                         Sagar Road, R.R Dist <br />
@@ -42,14 +42,14 @@ const contactUs = () => {
                             <Col xs={12} md={4}>
                                 <div>
                                     <h3 id='heading'>Get In Touch </h3>
-                                    <p><span style={{ marginRight: '10px' }}><Icon.Phone style={{ color: 'white' }} /></span><a href='tel:8019967799'>8074112793</a></p>
+                                    <p><span style={{ marginRight: '10px' }}><Icon.Phone style={{ color: 'white' }} /></span><a href='tel:8019967799'>7997797474</a></p>
                                 </div>
                             </Col>
 
                             <Col xs={12} md={4}>
                                 <div>
                                     <h3 id='heading'>Write to Us</h3>
-                                    <p><span style={{ marginRight: '10px' }}><Icon.Envelope style={{ color: 'white' }} /></span>illuminatidesign@gmail.com</p>
+                                    <p><span style={{ marginRight: '10px' }}><Icon.Envelope style={{ color: 'white' }} /></span>ihomes.ind@gmail.com</p>
                                 </div>
                             </Col>
                         </Row>

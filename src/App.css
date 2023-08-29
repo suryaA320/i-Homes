@@ -419,7 +419,7 @@
   height: 100vh;
   position: relative;
   width: 100%;
-  -webkit-filter: brightness(30%);
+  -webkit-filter: brightness(40%);
 }
 
 #car-img-3 {
@@ -430,7 +430,7 @@
   height: 100vh;
   position: relative;
   width: 100%;
-  -webkit-filter: brightness(30%);
+  -webkit-filter: brightness(40%);
 }
 
 #car-img-2 {
@@ -441,7 +441,7 @@
   height: 100vh;
   position: relative;
   width: 100%;
-  -webkit-filter: brightness(30%);
+  -webkit-filter: brightness(40%);
 }
 
 

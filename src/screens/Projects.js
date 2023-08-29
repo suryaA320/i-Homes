@@ -77,9 +77,8 @@ const Projects = () => {
                 Flip through the pages of this brochure to witness our diverse portfolio - from majestic residential complexes to
                 state-of-the-art commercial hubs. Each project narrates a story of transformation, where ideas have flourished into iconic
                 structures that serve as symbols of progress.</p>
-              <a href={require('../images/ProductImages/SLNS.pdf')} target="_blank" rel="noreferrer">
-                <button className="brochure">Download Brochure</button>
-              </a>
+              
+              <button onClick={contactUs} className="brochure">Know more</button>
             </div>
           </div>
 

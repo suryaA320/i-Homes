@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Vesper+Libre:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arapey&family=Lobster&family=Roboto:wght@500&family=Vesper+Libre:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arapey&family=Lobster&family=Noto+Serif+Display:wght@800&family=Roboto:wght@500&family=Vesper+Libre:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arapey&family=Lobster&family=Noto+Serif+Display:wght@800&family=Playfair+Display:wght@600&family=Roboto:wght@500&family=Vesper+Libre:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=Lobster&family=Noto+Serif+Display:wght@800&family=Playfair+Display:wght@600&family=Roboto:wght@500&family=Vesper+Libre:wght@900&family=Zilla+Slab:wght@300&display=swap');
 
 .body {
   font-family: ShopifySans, Helvetica, Arial, Lucida Grande, sans-serif;
@@ -19,6 +19,10 @@
   /* background-color: #d6d6d6; */
   opacity: 3;
   font-size: 16px;
+}
+
+#contact-text {
+  font-family: 'Zilla Slab', serif;
 }
 
 .mission-content {

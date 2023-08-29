@@ -29,7 +29,8 @@ const contactUs = () => {
                             <Col xs={12} md={4}>
                                 <div>
                                     <h3 id='heading'>Consult us @</h3>
-                                    <p >ihomedevelopers .<br />
+                                    <h4 id='contact-text'>ihomedevelopers </h4>
+                                    <p >
                                         #6 & 7, Second Floor, Shree Homes, <br />
                                         Hastinapuram <br />
                                         Sagar Road, R.R Dist <br />

@@ -44,7 +44,7 @@ const contactUs = () => {
                             <Col xs={12} md={4}>
                                 <div>
                                     <h3 id='heading'>Get In Touch </h3>
-                                    <p><span style={{ marginRight: '10px' }}><Icon.Phone style={{ color: 'white' }} /></span><a href='tel:8019967799'>7997797474</a></p>
+                                    <p><span style={{ marginRight: '10px' }}><Icon.Phone style={{ color: 'white' }} /></span><a href='tel:7997797474'>7997797474</a></p>
                                 </div>
                             </Col>
 

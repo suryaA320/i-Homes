@@ -20,13 +20,13 @@ const Chat = () => {
     const submitHandler = (e) => {
         const whatsappMessage = `This is "I-Home Enquiry", Name : ${formData.customerName}. Enquiry : ${formData.enquiry}`;
         const encodedMessage = encodeURIComponent(whatsappMessage);
-        const whatsappLink = `https://wa.me/8050660141?text=${encodedMessage}`;
+        const whatsappLink = `https://wa.me/918050660141?text=${encodedMessage}`;
         window.open(whatsappLink, '_blank');
     }
 
     return (
         <div>
-            <a type='button' id='myBtn' onClick={toggle}><Icon.Whatsapp style={{ fontSize: '50px' }} /></a>
+            <a type='button' id='myBtn' onClick={toggle}><Icon.Whatsapp id='whatsappIcon' /></a>
             <Modal isOpen={modal} toggle={toggle} id='modal'>
                 <ModalHeader toggle={toggle}>Connect With us</ModalHeader>
                 <ModalBody>

@@ -412,6 +412,10 @@
   #myBtn {
     display: block !important;
 }
+
+#whatsappIcon {
+  font-size: 20px;
+}
 }
 
 #myBtn {
@@ -420,7 +424,6 @@
   bottom: 30px;
   right: 5%;
   z-index: 100;
-  font-size: 18px;
   border: none;
   outline: none;
   background-color: rgb(32, 152, 16);
@@ -430,11 +433,9 @@
   border-radius: 50px;
 }
 
-/* #modal {
-  width: 100px;
-  height: 300px;
-  border-radius: 20px;
-} */
+#whatsappIcon {
+  font-size: 50px;
+}
 
 #car-img-1 {
   -webkit-background-size: cover;

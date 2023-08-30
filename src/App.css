@@ -408,8 +408,33 @@
     margin: 5px;
     height: auto !important;
   }
+
+  #myBtn {
+    display: block !important;
+}
 }
 
+#myBtn {
+  display: block;
+  position: fixed;
+  bottom: 30px;
+  right: 5%;
+  z-index: 100;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(32, 152, 16);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50px;
+}
+
+/* #modal {
+  width: 100px;
+  height: 300px;
+  border-radius: 20px;
+} */
 
 #car-img-1 {
   -webkit-background-size: cover;

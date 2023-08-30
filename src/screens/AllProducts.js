@@ -10,6 +10,7 @@ import { useNavigate } from "react-router-dom";
 import { Card, Col, Row } from 'reactstrap';
 import NewCarousal from '../components/NewCarousal';
 import * as Icon from 'react-bootstrap-icons';
+import Chat from '../components/Chat';
 
 
 const AllProducts = () => {
@@ -29,6 +30,7 @@ const AllProducts = () => {
         let path = `/contact-us`;
         navigate(path);
     }
+    
 
     function reveal() {
         var reveals = document.querySelectorAll(".reveal");
@@ -55,7 +57,7 @@ const AllProducts = () => {
 
             <div className="container-fluid" id='carousal-part' style={{ paddingLeft: '0px', paddingRight: '0px' }}>
                 <NewCarousal />
-            </div>
+            </div>            
 
             <div>
                 <p id='prarambh-text' className='reveal fade-bottom'>i Homes Prarambh</p>
@@ -125,10 +127,10 @@ const AllProducts = () => {
                         <Row>
                             <Col xs={12} md={3} >
                                 <Card id='round-img'>
-                                    <Icon.People id='icon'/>
+                                    <Icon.People id='icon' />
                                 </Card>
                                 <div id='content-card'>
-                                    <h3 style={{marginTop:'100px'}}>Expertise</h3>
+                                    <h3 style={{ marginTop: '100px' }}>Expertise</h3>
                                     <p style={{ marginTop: '30px' }}>Our team of seasoned architects, engineers, and construction professionals brings a wealth
                                         of knowledge and experience to every project. </p>
                                 </div>
@@ -136,36 +138,36 @@ const AllProducts = () => {
 
                             <Col xs={12} md={3} >
                                 <Card id='round-img'>
-                                <Icon.ZoomIn id='icon'/>
+                                    <Icon.ZoomIn id='icon' />
                                 </Card>
                                 <div id='content-card'>
-                                    <h3 style={{marginTop:'100px'}}>Transparency</h3>
-                                    <p style={{ marginTop: '30px' }}>Open communication and transparency are fundamental to our client 
-                                    relationships. </p>
+                                    <h3 style={{ marginTop: '100px' }}>Transparency</h3>
+                                    <p style={{ marginTop: '30px' }}>Open communication and transparency are fundamental to our client
+                                        relationships. </p>
                                 </div>
                             </Col>
 
                             <Col xs={12} md={3} >
                                 <Card id='round-img'>
-                                <Icon.Bezier2 id='icon'/>
+                                    <Icon.Bezier2 id='icon' />
                                 </Card>
                                 <div id='content-card'>
-                                    <h3 style={{marginTop:'100px'}}>Innovation</h3>
-                                    <p style={{ marginTop: '30px' }}>We embrace cutting-edge construction methods and materials to 
-                                    create apartment buildings that are not only aesthetically pleasing but also technologically 
-                                    advanced and energy-efficient.</p>
+                                    <h3 style={{ marginTop: '100px' }}>Innovation</h3>
+                                    <p style={{ marginTop: '30px' }}>We embrace cutting-edge construction methods and materials to
+                                        create apartment buildings that are not only aesthetically pleasing but also technologically
+                                        advanced and energy-efficient.</p>
                                 </div>
                             </Col>
 
                             <Col xs={12} md={3}>
                                 <Card id='round-img'>
-                                <Icon.BookmarkStarFill id='icon'/>
+                                    <Icon.BookmarkStarFill id='icon' />
                                 </Card>
                                 <div id='content-card'>
-                                    <h3 style={{marginTop:'100px'}}>Quality Assurance</h3>
-                                    <p style={{ marginTop: '30px' }}> Quality is our top priority. Our rigorous quality assurance 
-                                    processes and attention to detail at every stage of construction guarantee that the finished product 
-                                    surpasses expectations </p>
+                                    <h3 style={{ marginTop: '100px' }}>Quality Assurance</h3>
+                                    <p style={{ marginTop: '30px' }}> Quality is our top priority. Our rigorous quality assurance
+                                        processes and attention to detail at every stage of construction guarantee that the finished product
+                                        surpasses expectations </p>
                                 </div>
                             </Col>
 

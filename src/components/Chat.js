@@ -20,7 +20,7 @@ const Chat = () => {
     const submitHandler = (e) => {
         const whatsappMessage = `This is "I-Home Enquiry", Name : ${formData.customerName}. Enquiry : ${formData.enquiry}`;
         const encodedMessage = encodeURIComponent(whatsappMessage);
-        const whatsappLink = `https://wa.me/918050660141?text=${encodedMessage}`;
+        const whatsappLink = `https://wa.me/917997797474?text=${encodedMessage}`;
         window.open(whatsappLink, '_blank');
     }
 

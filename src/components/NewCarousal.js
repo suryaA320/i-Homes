@@ -1,7 +1,6 @@
 import React from 'react'
-import carousal_1 from '../images/carousImages/carousal_1.jpg';
 import carousal_2 from '../images/carousImages/carousal_2.jpg';
-import { Button } from 'reactstrap';
+import Prarambh from "../images/ProductImages/prarambh.JPG"
 import { useNavigate } from "react-router-dom";
 
 const NewCarousal = () => {
@@ -19,7 +18,7 @@ const NewCarousal = () => {
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src={carousal_1}  alt="i homes prarambh luxuary 2 & 3bhk apartments at adibatla" id='car-img-1' />
+          <img src={Prarambh}  alt="i homes prarambh luxuary 2 & 3bhk apartments at adibatla" id='car-img-1' />
           <div class="carousel-caption" id='hero'>
             <h5 id='carousal-main'>i Homes</h5>
             <p id='carousal-subtext'>2 & 3BHK Luxuary Apartments @TCS Adibatla.</p>

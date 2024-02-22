@@ -2,8 +2,8 @@ import React from 'react'
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import Building from '../images/ProductImages/prarambh.JPG';
-import HD_View from '../images/ProductImages/HD-View-2.jpg';
-import HD_2 from "../images/ProductImages/img.jpg"
+import HD_2 from "../images/ProductImages/img.jpg";
+import Night_Elevation from "../images/ProductImages/Night_view.jpg"
 import FloorPlan from '../images/ProductImages/Floor-Plan.jpg';
 import specifications from '../images/ProductImages/Specifications.jpg'
 import { useNavigate } from "react-router-dom";
@@ -30,7 +30,7 @@ const AllProducts = () => {
         let path = `/contact-us`;
         navigate(path);
     }
-    
+
 
     function reveal() {
         var reveals = document.querySelectorAll(".reveal");
@@ -57,7 +57,7 @@ const AllProducts = () => {
 
             <div className="container-fluid" id='carousal-part' style={{ paddingLeft: '0px', paddingRight: '0px' }}>
                 <NewCarousal />
-            </div>            
+            </div>
 
             <div>
                 <p id='prarambh-text' className='reveal fade-bottom'>i Homes Prarambh</p>
@@ -104,6 +104,32 @@ const AllProducts = () => {
 
                 </div>
             </div>
+
+
+            <div className='container-fluid reveal fade-bottom' id='first-block' >
+                <div className='row' >
+
+                    <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="ads_1" style={{ textAlign: 'center' }}>
+                        <img src={Night_Elevation} alt="i homes prarambh night elevation" className="d-block"
+                            id='building-images' />
+                    </div>
+
+                    <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="ads_1" style={{ textAlign: 'center', paddingLeft: '50px', paddingRight: '50px' }}>
+                        <p id='first-headline'> Night View Elevation of IHOMES Prarambh</p>
+                        <p id='block-content'>At our new apartment, every night is a celebration of the city's luminous charm. Witness the
+                            skyline come alive with a breathtaking display of city lights, creating a mesmerizing panorama
+                            that you can enjoy from the comfort of your own home.  Our strategically designed architecture
+                            maximizes the views, ensuring that each residence is a front-row seat to the city's nighttime allure.
+                            Step into your modern, thoughtfully designed apartment where large windows frame the
+                            cityscape like living, breathing artwork. The interiors are bathed in the gentle glow of ambient
+                            lighting, creating an ambiance that seamlessly transitions from vibrant urban energy to intimate relaxation.
+                        </p>
+                        <button className="explore" onClick={projects} type="submit">Explore More</button>
+                    </div>
+
+                </div>
+            </div>
+
 
             <div className='container-fluid reveal fade-bottom' id='initial'>
                 <div className='container'>

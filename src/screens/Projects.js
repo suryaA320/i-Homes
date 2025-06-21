@@ -218,7 +218,7 @@ const Projects = () => {
                     </ul>
                   </div>
                 </div>
-                <a href={require('../images/ProductImages/the11new.pdf')} target="_blank" rel="noreferrer">
+                <a href={require('../images/ProductImages/11-new-jun-25.pdf')} target="_blank" rel="noreferrer">
                   <button className="brochure">"The 11" Brochure</button>
                 </a>
               </Col>

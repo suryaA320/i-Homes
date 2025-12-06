@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import * as Icon from 'react-bootstrap-icons';
 import '../App.css';
 import { useNavigate } from "react-router-dom";
 import logo from '../images/carousImages/Logo-ihomes.png'

@@ -77,7 +77,7 @@ const Projects = () => {
                 Flip through the pages of this brochure to witness our diverse portfolio - from majestic residential complexes to
                 state-of-the-art commercial hubs. Each project narrates a story of transformation, where ideas have flourished into iconic
                 structures that serve as symbols of progress.</p>
-              
+
               <button onClick={contactUs} className="brochure">Know more</button>
             </div>
           </div>
@@ -127,8 +127,8 @@ const Projects = () => {
                   </div>
                 </div>
                 <a href={require('../images/ProductImages/SLNS.pdf')} target="_blank" rel="noreferrer">
-                <button className="brochure">SLNS & I Brochure</button>
-              </a>
+                  <button className="brochure">SLNS & I Brochure</button>
+                </a>
               </Col>
             </Row>
           </div>
@@ -191,7 +191,7 @@ const Projects = () => {
 
               <Col xs={12} md={6}>
                 <div className='reveal fade-bottom'>
-                  <img src={the11_logo} alt='i homes the 11 luxury apartments' id='the-logo'/>
+                  <img src={the11_logo} alt='i homes the 11 luxury apartments' id='the-logo' />
                   <div id='specifications-card'>
                     <ul id='Aminity-list'>
                       <p id='aminity-heading'>Aminities</p>
@@ -218,9 +218,17 @@ const Projects = () => {
                     </ul>
                   </div>
                 </div>
-                <a href={require('../images/ProductImages/11-new-jun-25.pdf')} target="_blank" rel="noreferrer">
-                  <button className="brochure">"The 11" Brochure</button>
-                </a>
+                <div id='permissions-class'>
+                  <a href={require('../images/ProductImages/11-new-jun-25.pdf')} target="_blank" rel="noreferrer">
+                    <button className="brochure">"The 11" Brochure</button>
+                  </a>
+                  <a href={require('../images/ProductImages/rera_ihomes.pdf')} target="_blank" rel="noreferrer">
+                    <button className="brochure">RERA Approval</button>
+                  </a>
+                  <a href={require('../images/ProductImages/hmda_approval.pdf')} target="_blank" rel="noreferrer">
+                    <button className="brochure">HMDA Approval</button>
+                  </a>
+                </div>
               </Col>
             </Row>
           </div>

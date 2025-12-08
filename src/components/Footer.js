@@ -5,6 +5,7 @@ import * as Icon from 'react-bootstrap-icons';
 import { useNavigate } from "react-router-dom";
 import Logo from "../images/carousImages/Logo-ihomes.png"
 import QR from '../images/ProductImages/QR-code.png'
+import Eleven_QR from '../images/ProductImages/11-QR.jpeg'
 
 const Footer = () => {
 
@@ -67,7 +68,7 @@ const Footer = () => {
                         <li><a onClick={projects} type='button'>Our Projects</a></li>
                         <li><a onClick={contactUs} type='button'>Contact us</a></li>
                         <li>Scan QR for Location.</li>
-                        <li id='qr-code-img'><img src={QR} alt='i homes location near adibatla hyderabad' id='qr-code-img' /></li>
+                        <li id='qr-code-img'><img src={Eleven_QR} alt='i homes location near adibatla hyderabad' id='qr-code-img' /></li>
                     </ul>
                 </Col>
             </Row>

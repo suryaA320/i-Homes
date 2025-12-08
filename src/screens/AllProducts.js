@@ -1,9 +1,9 @@
 import React from 'react'
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
-import Building from '../images/ProductImages/prarambh.JPG';
-import HD_2 from "../images/ProductImages/img.jpg";
-import Night_Elevation from "../images/ProductImages/Night_view.jpg"
+import Building from '../images/ProductImages/11-2.JPG';
+import HD_2 from "../images/ProductImages/11-6.JPG";
+import Night_Elevation from "../images/ProductImages/11-7.jpg"
 import FloorPlan from '../images/ProductImages/Floor-Plan.jpg';
 import specifications from '../images/ProductImages/Specifications.jpg'
 import { useNavigate } from "react-router-dom";
@@ -60,7 +60,7 @@ const AllProducts = () => {
             </div>
 
             <div>
-                <p id='prarambh-text' className='reveal fade-bottom'>i Homes Prarambh</p>
+                <p id='prarambh-text' className='reveal fade-bottom'>i Homes-The 11</p>
             </div>
 
             <div className='container-fluid reveal fade-bottom' id='first-block' >
@@ -115,7 +115,7 @@ const AllProducts = () => {
                     </div>
 
                     <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12' id="ads_1" style={{ textAlign: 'center', paddingLeft: '50px', paddingRight: '50px' }}>
-                        <p id='first-headline'> Night View Elevation of IHOMES Prarambh</p>
+                        <p id='first-headline'> Night View Elevation of IHOMES The 11</p>
                         <p id='block-content'>At our new apartment, every night is a celebration of the city's luminous charm. Witness the
                             skyline come alive with a breathtaking display of city lights, creating a mesmerizing panorama
                             that you can enjoy from the comfort of your own home.  Our strategically designed architecture
